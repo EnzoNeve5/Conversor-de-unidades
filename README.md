@@ -1,10 +1,10 @@
-# Documento de Especificação de Produto (PRD): Conversor de Unidades C
+# Documento de Especificação de Produto (PRD): Conversor de Unidades
 
 ---
 
 ## 1. Visão Geral
 
-Este PRD detalha o **Conversor de Unidades**, um utilitário de linha de comando (CLI) desenvolvido em linguagem C. O objetivo principal é fornecer uma ferramenta rápida, precisa e modular para a conversão de diversas grandezas físicas, servindo tanto como utilitário prático quanto como base de estudo para estruturas de dados em C.
+Este PRD detalha o **Conversor de Unidades**, um utilitário de linha de comando (CLI). O objetivo principal é fornecer uma ferramenta rápida, precisa e modular para a conversão de diversas grandezas físicas, servindo tanto como utilitário prático quanto como base de estudo para estruturas de dados.
 
 ## 2. Objetivos e Público-Alvo
 
@@ -37,8 +37,8 @@ O sistema deve suportar, no mínimo, as seguintes categorias de conversão:
 
 ## 4. Requisitos Não Funcionais
 
-* **Portabilidade:** O código deve ser compatível com compiladores GCC e MSVC (Windows/Linux).
-* **Modularidade:** Uso de arquivos de cabeçalho (`.h`) para separar as definições das lógicas de cálculo.
+* **Portabilidade:** O código deve ser compatível em Python (Windows) e Shell Script (Linux).
+* **Modularidade:** Uso de arquivos de cabeçalho (`.py` ou `.sh`) para separar as definições das lógicas de cálculo.
 * **Desempenho:** Resposta instantânea aos cálculos matemáticos simples.
 * **Baixo Footprint:** O executável final deve ter tamanho reduzido.
 
@@ -52,9 +52,11 @@ A solução é dividida em módulos para facilitar a manutenção:
 
 | Arquivo | Função |
 | --- | --- |
-| `conversor-de-unidades-02.c` | Ponto de entrada (`main`), gerenciamento de menus e controle de fluxo. |
-| `conversor.h` / `converter.h` | Protótipos de funções e definições de constantes matemáticas para conversão. |
-| `conversor-de-unidades-02.exe` | Artefato binário compilado para execução direta em ambientes Windows. |
+| `conversor-de-unidades-03.py` | Ponto de entrada (`main`), gerenciamento de menus e controle de fluxo em ambiente Windows. |
+| `conversor-de-unidades-03.sh` | Ponto de entrada (`main`), gerenciamento de menus e controle de fluxo em ambiente Linux. |
+| `english.py` / `español.py` / `português.py` | Protótipos de funções e definições de constantes matemáticas para conversão em ambiente Windows. |
+| `english.sh` / `español.sh` / `português.sh` | Protótipos de funções e definições de constantes matemáticas para conversão em ambiente Linux. |
+| `conversor-de-unidades-03.exe` | Artefato binário compilado para execução direta em ambientes Windows. |
 
 ### 5.2 Lógica de Cálculo
 
