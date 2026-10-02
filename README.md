@@ -86,3 +86,4 @@ As fórmulas aplicadas seguem padrões físicos internacionais:
 * **v1.3:** Adicionar melhorias no design e implementar a opção de fazer funcionar em ambiente Linux.
 * **v2.0:** Adicionar a opção de converter as unidades em Inglês.
 * **v3.0:** Adicionar a opção de converter as unidades em Espanhol e uso de Whiptail (Linux).
+* **v4.0: (Beta)** Adicionar a opção de converter um ou todas as unidades.
