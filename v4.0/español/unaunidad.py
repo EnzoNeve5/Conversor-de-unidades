@@ -5,7 +5,7 @@ while (repetir=="Si"):
 
     match x:
         case "1":
-            n1 = float(input ('Digite um valor em m²: '))
+            n1 = float(input ('Ingrese un valor en m²: '))
             a = n1
             b = n1 * 100
             c = n1 * 10000
@@ -146,7 +146,7 @@ while (repetir=="Si"):
 
             ec = n1 / 1000000000000000000000000000000000000000000000000000000000000000000000000 * 3828
 
-            print('\nOpções de conversão:')
+            print('\nOpciones de conversión:')
             print ('\n 1- m² - MEDIDAS MÉTRICAS \n 2- dm² - MEDIDAS MÉTRICAS \n 3- cm² - MEDIDAS MÉTRICAS \n 4- mm² - MEDIDAS MÉTRICAS \n 5- b - MEDIDAS MÉTRICAS \n 6- km² - MEDIDAS MÉTRICAS \n 7- hectare - MEDIDAS MÉTRICAS \n 8- decare - MEDIDAS MÉTRICAS \n 9- a - MEDIDAS MÉTRICAS')
             print ('\n 10- township - EUA E INGLATERRA \n 11- milha quadrada - EUA E INGLATERRA \n 12- homestead - EUA E INGLATERRA \n 13- acre - EUA E INGLATERRA \n 14- rood - EUA E INGLATERRA \n 15- rod quadrado - EUA E INGLATERRA \n 16- perch - EUA E INGLATERRA \n 17- yd² - EUA E INGLATERRA \n 18- ft² - EUA E INGLATERRA \n 19- in² - EUA E INGLATERRA \n 20- th² - EUA E INGLATERRA')
             print ('\n 21- shaku - JAPÃO \n 22- go - JAPÃO \n 23- jo - JAPÃO \n 24- tsubo - JAPÃO \n 25- bu - JAPÃO \n 26- se - JAPÃO \n 27- tan - JAPÃO \n 28- cho - JAPÃO')
@@ -171,7 +171,7 @@ while (repetir=="Si"):
             print ('\n 122- polegada circular - BITOLA DOS FIOS \n 123- kcmil, MCM - BITOLA DOS FIOS \n 124- cmil - BITOLA DOS FIOS')
             print ('\n 125- L² - NATURAIS')
 
-            opcao = input('\nVocê deseja converter m² para qual unidade? ').strip()
+            opcao = input('\n¿A qué unidad quieres convertir los m²? ').strip()
 
             if opcao == '1':
                 print('{} m²'.format(a))
@@ -424,11 +424,11 @@ while (repetir=="Si"):
             elif opcao == '125':
                 print('{} L²'.format(ec))
             else:
-                print('Tivemos um problema com os tipos de dados que você digitou!')
+                print('¡Hemos tenido un problema con los tipos de datos que has introducido!')
 
-            print ('A CATEC agradece a sua consulta!')
+            print ('¡CATEC le agradece tu consulta!')
         case "2":
-            n1 = float(input ('Digite um valor em l: '))
+            n1 = float(input ('Ingrese un valor en l: '))
             a = n1 / 100
             b = n1 / 10
             c = n1
@@ -676,7 +676,7 @@ while (repetir=="Si"):
             hn = n1 / 10000 * 2727
             ho = n1 / 1000 * 3273
 
-            print('\nOpções de conversão:')
+            print('\nOpciones de conversión:')
             print('\n 1- hl - MEDIDAS MÉTRICAS \n 2- decalitro - MEDIDAS MÉTRICAS \n 3- l - MEDIDAS MÉTRICAS \n 4- dl - MEDIDAS MÉTRICAS ' \
             '\n 5- cl - MEDIDAS MÉTRICAS \n 6- ml - MEDIDAS MÉTRICAS \n 7- µl - MEDIDAS MÉTRICAS \n 8- km³ - MEDIDAS MÉTRICAS ' \
             '\n 9- m³ - MEDIDAS MÉTRICAS \n 10- dm³ - MEDIDAS MÉTRICAS \n 11- cc - MEDIDAS MÉTRICAS \n 12- mm³ - MEDIDAS MÉTRICAS ' \
@@ -727,7 +727,7 @@ while (repetir=="Si"):
             print ('\n 213- bato - BÍBLIA LÍQUIDO \n 214- hin - BÍBLIA LÍQUIDO \n 215- log - BÍBLIA LÍQUIDO')
 
 
-            opcao = input('\nVocê deseja converter l para qual unidade? ').strip()
+            opcao = input('\n¿A qué unidad quieres convertir los l? ').strip()
 
             if opcao == '1':
                 print('{} hl'.format(a))
@@ -1160,11 +1160,11 @@ while (repetir=="Si"):
             elif opcao == '215':
                 print('{} log'.format(ho))
             else:
-                print('Tivemos um problema com os tipos de dados que você digitou!')
+                print('¡Hemos tenido un problema con los tipos de datos que has introducido!')
 
-            print ('A CATEC agradece a sua consulta!')
+            print ('¡CATEC le agradece tu consulta!')
         case "3":
-            n1 = float(input ('Digite um valor em km: '))
+            n1 = float(input ('Ingrese un valor en km: '))
             a = n1
             b = n1 * 10
             c = n1 * 100
@@ -1514,7 +1514,7 @@ while (repetir=="Si"):
             ln = n1 * 13123
             lo = n1 * 52493
 
-            print('\nOpções de conversão:')
+            print('\nOpciones de conversión:')
             print ('\n 1- km - MEDIDAS MÉTRICAS \n 2- hm - MEDIDAS MÉTRICAS \n 3- dam - MEDIDAS MÉTRICAS \n 4- m - MEDIDAS MÉTRICAS ' \
             '\n 5- dm - MEDIDAS MÉTRICAS \n 6- cm - MEDIDAS MÉTRICAS \n 7- mm - MEDIDAS MÉTRICAS \n 8- mícron - MEDIDAS MÉTRICAS ' \
             '\n 9- nm - MEDIDAS MÉTRICAS \n 10- Å - MEDIDAS MÉTRICAS \n 11- légua - EUA E INGLATERRA \n 12- mi - EUA E INGLATERRA ' \
@@ -1574,7 +1574,7 @@ while (repetir=="Si"):
             '\n 306- linje anterior a 1855 - SUÉCIA ANTIGA \n 307- linje posterior a 1855 - SUÉCIA ANTIGA')
             print ('\n 308- côvado - BÍBLIA \n 309- palmo - BÍBLIA \n 310- tephach - BÍBLIA \n 311- etzbah - BÍBLIA')
 
-            opcao = input('\nVocê deseja converter km para qual unidade? ').strip()
+            opcao = input('\n¿A qué unidad quieres convertir los km? ').strip()
 
             if opcao == '1':
                 print('{} km'.format(a))
@@ -2199,11 +2199,11 @@ while (repetir=="Si"):
             elif opcao == '311':
                 print('{} etzbah'.format(lo))
             else:
-                print('Tivemos um problema com os tipos de dados que você digitou!')
+                print('¡Hemos tenido un problema con los tipos de datos que has introducido!')
 
-            print ('A CATEC agradece a sua consulta!')
+            print ('¡CATEC le agradece tu consulta!')
         case "4":
-            n1 = float(input ('Digite um valor em kg: '))
+            n1 = float(input ('Ingrese un valor en kg: '))
             a = n1 / 1000000
             b = n1 / 1000
             c = n1 
@@ -2427,7 +2427,7 @@ while (repetir=="Si"):
             hu = n1 / 10 * 2572
             hv = n1 / 10 * 7716
             hw = n1 * 15432
-            print('\nOpções de conversão:')
+            print('\nOpciones de conversión:')
             print ('\n 1- kT = Quilotonne (t) - COMUM \n 2- T = Tonne (t) - COMUM \n 3- kg = Quilograma (kg) - COMUM \n 4- g = Grama (g) - COMUM ' \
             '\n 5- cg = Centigrama (cg) - COMUM \n 6- mg = Miligrama (mg) - COMUM \n 7- mcg = Micrograma (mcg) - COMUM \n 8- N = Newton (N) - COMUM ' \
             '\n 9- kN = Quilonewton (kN) - COMUM \n 10- ct = Quilate (ct) - COMUM \n 11- centner métrico = Centner métrico - COMUM ' \
@@ -2469,7 +2469,7 @@ while (repetir=="Si"):
             print ('\n 216- metical - FÉ BAHÁ´I \n 217- nakhud - FÉ BAHÁ´I')
             print ('\n 218- talento - BÍBLIA \n 219- mina - BÍBLIA \n 220- siclo - BÍBLIA \n 221- pim - BÍBLIA \n 222- beca - BÍBLIA \n 223- gera - BÍBLIA')
 
-            opcao = input('\nVocê deseja converter kg para qual unidade? ').strip()
+            opcao = input('\n¿A qué unidad quieres convertir los kg? ').strip()
 
             if opcao == '1':
                 print ('{} kT'.format(a))
@@ -2918,11 +2918,11 @@ while (repetir=="Si"):
             elif opcao == '223':
                 print ('{} gera'.format(cm))
             else:
-                print('Tivemos um problema com os tipos de dados que você digitou!')
+                print('¡Hemos tenido un problema con los tipos de datos que has introducido!')
 
-            print ('A CATEC agradece a sua consulta!')
+            print ('¡CATEC le agradece tu consulta!')
         case "5":
-            n1 = float(input ('Digite um valor em ºC: '))
+            n1 = float(input ('Ingrese un valor en ºC: '))
             a = n1
             b = a * 1.8 + 32
             c = 273.15 + a
@@ -2932,11 +2932,11 @@ while (repetir=="Si"):
             g = a * 0.33
             h = 7.5 + a * 0.525
             i = 150 - a * 1.5
-            print('\nOpções de conversão:')
+            print('\nOpciones de conversión:')
             print('\n °F - Fahrenheit - ATUAL \n K - Kelvin - ATUAL \n °Re - Réaumur - ATUAL \n Θ - ATUAL \n °R - Rankine - HISTÓRIA ' \
             '\n °N - Newton - HISTÓRIA \n °Rø - Rømer - HISTÓRIA \n °De - Delisle - HISTÓRIA')
 
-            opcao = input('\nVocê deseja converter ºC para qual unidade? ').strip()
+            opcao = input('\n¿A qué unidad quieres convertir los ºC? ').strip()
 
             if opcao == 'ºC' or opcao == 'C':
                 print(f'{a}ºC')
@@ -2957,10 +2957,10 @@ while (repetir=="Si"):
             elif opcao == 'ºDe' or opcao == 'De':
                 print(f'{i}ºDe')
             else:
-                print('Tivemos um problema com os tipos de dados que você digitou!')
-            print ('A CATEC agradece a sua consulta!')
+                print('¡Hemos tenido un problema con los tipos de datos que has introducido!')
+            print ('¡CATEC le agradece tu consulta!')
         case "6":
-            n1 = float(input ('Digite um valor em km/h: '))
+            n1 = float(input ('Ingrese un valor en km/h: '))
             a = n1 / 10000000 * 2778
             b = n1 / 10000 * 2778
             c = n1 / 100000 * 1667
@@ -2992,7 +2992,7 @@ while (repetir=="Si"):
             ac = n1 / 100 * 54
             ad = n1 / 1000000 * 817
             ae = n1 / 1000000000000 * 926
-            print('\nOpções de conversão:')
+            print('\nOpciones de conversión:')
             print('\n km/s - Quilômetro por segundo - MEDIDAS MÉTRICAS \n m/s - Metro por segundo - MEDIDAS MÉTRICAS \n km/min - Quilômetro por minuto - MEDIDAS MÉTRICAS ' \
             '\n m/min - Metro por minuto - MEDIDAS MÉTRICAS \n km/h - Quilômetro por hora - MEDIDAS MÉTRICAS \n m/h - Metro por hora - MEDIDAS MÉTRICAS \n km/ano - Quilômetro por ano - MEDIDAS MÉTRICAS ' \
             '\n m/ano - Metro por ano - MEDIDAS MÉTRICAS \n mi/s - Milha por segundo - EUA E INGLATERRA \n ft/s - Pé por segundo - EUA E INGLATERRA \n in/s - Polegada por segundo - EUA E INGLATERRA ' \
@@ -3002,7 +3002,7 @@ while (repetir=="Si"):
             '\n s/100m - Segundos por 100 metros - RITMO \n min/mi - Minutos por milha - RITMO \n s/mi - Segundos por milha - RITMO ' \
             '\n s/100yds - Segundos por 100 jardas - RITMO \n s/500m - Segundos por 500 metros - RITMO \n nó - Nó (milha náutica por hora) - UNIDADES NÁUTICAS ' \
             '\n mi/h maritima - Milha marítima por hora - UNIDADES NÁUTICAS \n velocidade do som - Velocidade do som no ar - FÍSICA \n velocidade da luz - Velocidade da luz no vácuo - FÍSICA')
-            opcao = input('\nVocê deseja converter km/h para qual unidade? ').strip()
+            opcao = input('\n¿A qué unidad quieres convertir los km/h? ').strip()
             if opcao == 'km/s':
                 print(f'{a} km/s')
             elif opcao == 'm/s':
@@ -3066,11 +3066,11 @@ while (repetir=="Si"):
             elif opcao == 'velocidade da luz':
                 print(f'{ae} velocidade da luz no vácuo')
             else:
-                print('Tivemos um problema com os tipos de dados que você digitou!')
+                print('¡Hemos tenido un problema con los tipos de datos que has introducido!')
 
-            print ('A CATEC agradece a sua consulta!')
+            print ('¡CATEC le agradece tu consulta!')
         case _:
-            print('Tivemos um problema com os tipos de dados que você digitou!')
-    print('Você deseja realizar mais uma pesquisa?')
-    repetir = input('Digite [Si] para realizar, caso contrário a nova pesquisa não será realizada\n> ')
-print ('A CATEC agradece a sua pesquisa!')
+            print('¡Hemos tenido un problema con los tipos de datos que has introducido!')
+    print('¿Quieres realizar otra búsqueda?')
+    repetir = input('Escribe [Si] para continuar; de lo contrario, no se llevará a cabo la nueva búsqueda.\n> ')
+print ('¡CATEC te agradece tu investigación!')
