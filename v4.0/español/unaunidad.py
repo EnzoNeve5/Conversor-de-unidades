@@ -2933,8 +2933,8 @@ while (repetir=="Si"):
             h = 7.5 + a * 0.525
             i = 150 - a * 1.5
             print('\nOpciones de conversión:')
-            print('\n °F - Fahrenheit - ATUAL \n K - Kelvin - ATUAL \n °Re - Réaumur - ATUAL \n Θ - ATUAL \n °R - Rankine - HISTÓRIA ' \
-            '\n °N - Newton - HISTÓRIA \n °Rø - Rømer - HISTÓRIA \n °De - Delisle - HISTÓRIA')
+            print('\n °F - Fahrenheit - ACTUAL \n K - Kelvin - ACTUAL \n °Re - Réaumur - ACTUAL \n Θ - ACTUAL \n °R - Rankine - HISTORIA ' \
+            '\n °N - Newton - HISTORIA \n °Rø - Rømer - HISTORIA \n °De - Delisle - HISTORIA')
 
             opcao = input('\n¿A qué unidad quieres convertir los ºC? ').strip()
 
@@ -2993,15 +2993,15 @@ while (repetir=="Si"):
             ad = n1 / 1000000 * 817
             ae = n1 / 1000000000000 * 926
             print('\nOpciones de conversión:')
-            print('\n km/s - Quilômetro por segundo - MEDIDAS MÉTRICAS \n m/s - Metro por segundo - MEDIDAS MÉTRICAS \n km/min - Quilômetro por minuto - MEDIDAS MÉTRICAS ' \
-            '\n m/min - Metro por minuto - MEDIDAS MÉTRICAS \n km/h - Quilômetro por hora - MEDIDAS MÉTRICAS \n m/h - Metro por hora - MEDIDAS MÉTRICAS \n km/ano - Quilômetro por ano - MEDIDAS MÉTRICAS ' \
-            '\n m/ano - Metro por ano - MEDIDAS MÉTRICAS \n mi/s - Milha por segundo - EUA E INGLATERRA \n ft/s - Pé por segundo - EUA E INGLATERRA \n in/s - Polegada por segundo - EUA E INGLATERRA ' \
-            '\n mi/min - Milha por minuto - EUA E INGLATERRA \n ft/min - Pé por minuto - EUA E INGLATERRA \n in/min - Polegada por minuto - EUA E INGLATERRA \n mph - Milha por hora - EUA E INGLATERRA ' \
-            '\n ft/h - Pé por hora - EUA E INGLATERRA \n in/h - Polegada por hora - EUA E INGLATERRA \n mi/ano - Milha por ano - EUA E INGLATERRA \n ft/ano - Pé por ano - EUA E INGLATERRA ' \
-            '\n in/ano - Polegada por ano - EUA E INGLATERRA \n min/km - Minutos por quilômetro - RITMO \n s/km - Segundos por quilômetro - RITMO ' \
-            '\n s/100m - Segundos por 100 metros - RITMO \n min/mi - Minutos por milha - RITMO \n s/mi - Segundos por milha - RITMO ' \
-            '\n s/100yds - Segundos por 100 jardas - RITMO \n s/500m - Segundos por 500 metros - RITMO \n nó - Nó (milha náutica por hora) - UNIDADES NÁUTICAS ' \
-            '\n mi/h maritima - Milha marítima por hora - UNIDADES NÁUTICAS \n velocidade do som - Velocidade do som no ar - FÍSICA \n velocidade da luz - Velocidade da luz no vácuo - FÍSICA')
+            print('\n km/s - Kilómetro por segundo - TAMAÑOS MÉTRICOS \n m/s - Metro por segundo - TAMAÑOS MÉTRICOS \n km/min - Kilómetro por minuto - TAMAÑOS MÉTRICOS ' \
+            '\n m/min - Metro por minuto - TAMAÑOS MÉTRICOS \n km/h - Kilómetro por hora - TAMAÑOS MÉTRICOS \n m/h - Metro por hora - TAMAÑOS MÉTRICOS \n km/ano - Kilómetro por año - TAMAÑOS MÉTRICOS ' \
+            '\n m/ano - Metro por año - TAMAÑOS MÉTRICOS \n mi/s - Milla por segundo - EEUU Y INGLATERRA \n ft/s - Pie por segundo - EEUU Y INGLATERRA \n in/s - Pulgada por segundo - EEUU Y INGLATERRA ' \
+            '\n mi/min - Milla por minuto - EEUU Y INGLATERRA \n ft/min - Pie por minuto - EEUU Y INGLATERRA \n in/min - Pulgada por minuto - EEUU Y INGLATERRA \n mph - Milla por hora - EEUU Y INGLATERRA ' \
+            '\n ft/h - Pie por hora - EEUU Y INGLATERRA \n in/h - Pulgada por hora - EEUU Y INGLATERRA \n mi/ano - Milla por año - EEUU Y INGLATERRA \n ft/ano - Pie por año - EEUU Y INGLATERRA ' \
+            '\n in/ano - Pulgada por año - EEUU Y INGLATERRA \n min/km - Minutos por kilómetro - RITMO \n s/km - Segundos por kilómetro - RITMO ' \
+            '\n s/100m - Segundos por 100 metros - RITMO \n min/mi - Minutos por milla - RITMO \n s/mi - Segundos por milla - RITMO ' \
+            '\n s/100yds - Segundos por 100 yardas - RITMO \n s/500m - Segundos por 500 metros - RITMO \n nó - Nó (milla náutica por hora) - UNIDADES NÁUTICAS ' \
+            '\n mi/h maritima - Milla marítima por hora - UNIDADES NÁUTICAS \n Velocidad del sonido - Velocidad del sonido en el aire - FÍSICA \n Velocidad de la luz - Velocidad de la luz en el vacío - FÍSICA')
             opcao = input('\n¿A qué unidad quieres convertir los km/h? ').strip()
             if opcao == 'km/s':
                 print(f'{a} km/s')
@@ -3061,10 +3061,10 @@ while (repetir=="Si"):
                 print(f'{ab} nó')
             elif opcao == 'mi/h maritima':
                 print(f'{ac} mi/h maritima')
-            elif opcao == 'velocidade do som':
-                print(f'{ad} velocidade do som no ar')
-            elif opcao == 'velocidade da luz':
-                print(f'{ae} velocidade da luz no vácuo')
+            elif opcao == 'Velocidad del sonido':
+                print(f'{ad} Velocidad del sonido en el aire')
+            elif opcao == 'Velocidad de la luz':
+                print(f'{ae} Velocidad de la luz en el vacío')
             else:
                 print('¡Hemos tenido un problema con los tipos de datos que has introducido!')
 
