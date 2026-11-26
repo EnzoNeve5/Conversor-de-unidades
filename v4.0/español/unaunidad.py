@@ -1513,66 +1513,66 @@ while (repetir=="Si"):
             lm = n1 * 4374
             ln = n1 * 13123
             lo = n1 * 52493
-
+            
             print('\nOpciones de conversión:')
             print ('\n 1- km - MEDIDAS MÉTRICAS \n 2- hm - MEDIDAS MÉTRICAS \n 3- dam - MEDIDAS MÉTRICAS \n 4- m - MEDIDAS MÉTRICAS ' \
             '\n 5- dm - MEDIDAS MÉTRICAS \n 6- cm - MEDIDAS MÉTRICAS \n 7- mm - MEDIDAS MÉTRICAS \n 8- mícron - MEDIDAS MÉTRICAS ' \
             '\n 9- nm - MEDIDAS MÉTRICAS \n 10- Å - MEDIDAS MÉTRICAS \n 11- légua - EUA E INGLATERRA \n 12- mi - EUA E INGLATERRA ' \
-            '\n 13- land - EUA E INGLATERRA \n 14- furlong - EUA E INGLATERRA \n 15- bolt - EUA E INGLATERRA \n 16- chain - EUA E INGLATERRA ' \
-            '\n 17- pole - EUA E INGLATERRA \n 18- rd - EUA E INGLATERRA \n 19- perch - EUA E INGLATERRA \n 20- yd - EUA E INGLATERRA ' \
-            '\n 21- ft - EUA E INGLATERRA \n 22- palmo - EUA E INGLATERRA \n 23- hand - EUA E INGLATERRA \n 24- in - EUA E INGLATERRA ' \
-            '\n 25- linha - EUA E INGLATERRA \n 26- mil - EUA E INGLATERRA \n 27- micropolegada - EUA E INGLATERRA')
+            '\n 13- land - EEUU Y INGLATERRA \n 14- furlong - EEUU Y INGLATERRA \n 15- bolt - EEUU Y INGLATERRA \n 16- chain - EEUU Y INGLATERRA ' \
+            '\n 17- pole - EEUU Y INGLATERRA \n 18- rd - EEUU Y INGLATERRA \n 19- perch - EEUU Y INGLATERRA \n 20- yd - EEUU Y INGLATERRA ' \
+            '\n 21- ft - EEUU Y INGLATERRA \n 22- palmo - EEUU Y INGLATERRA \n 23- hand - EEUU Y INGLATERRA \n 24- in - EEUU Y INGLATERRA ' \
+            '\n 25- linha - EEUU Y INGLATERRA \n 26- mil - EEUU Y INGLATERRA \n 27- micropolegada - EEUU Y INGLATERRA')
             print ('\n 28- légua - INGLATERRA \n 29- mi - INGLATERRA \n 30- land - INGLATERRA \n 31- skein - INGLATERRA \n 32- bolt - INGLATERRA ' \
             '\n 33- shackle - INGLATERRA \n 34- furlong - INGLATERRA \n 35- corrente - INGLATERRA \n 36- rope - INGLATERRA \n 37- pole - INGLATERRA \n 38- goad - INGLATERRA ' \
             '\n 39- ell - INGLATERRA \n 40- yd - INGLATERRA \n 41- ritmo - INGLATERRA \n 42- côvado - INGLATERRA \n 43- ft - INGLATERRA \n 44- palmo - INGLATERRA \n 45- nail - INGLATERRA ' \
             '\n 46- shaftment - INGLATERRA \n 47- hd - INGLATERRA \n 48- plm - INGLATERRA \n 49- in - INGLATERRA \n 50- finger - INGLATERRA \n 51- digitus - INGLATERRA \n 52- grãos de cevada - INGLATERRA ' \
             '\n 53- sementes de papoula - INGLATERRA \n 54- linha - INGLATERRA \n 55- botão - INGLATERRA \n 56- calibre - INGLATERRA \n 57- thou - INGLATERRA \n 58- mil - INGLATERRA')
-            print ('\n 59- furlong - AGRIMENSURA DOS EUA \n 60- corrente de ramsden - engenharia - AGRIMENSURA DOS EUA \n 61- corrente de gunter - agrimensor - AGRIMENSURA DOS EUA ' \
-            '\n 62- corrente de gurley - AGRIMENSURA DOS EUA \n 63- pole de gunter - AGRIMENSURA DOS EUA \n 64- yard de gunter - AGRIMENSURA DOS EUA \n 65- link de ramsden - AGRIMENSURA DOS EUA \n 66- link de gunter - AGRIMENSURA DOS EUA ' \
-            '\n 67- link de gurley - AGRIMENSURA DOS EUA \n 68- pé de gunter - AGRIMENSURA DOS EUA')
+            print ('\n 59- furlong - SERVICIO DE AGRICULTURA Y TOPOGRAFÍA DE EEUU \n 60- corrente de ramsden - engenharia - SERVICIO DE AGRICULTURA Y TOPOGRAFÍA DE EEUU \n 61- corrente de gunter - agrimensor - SERVICIO DE AGRICULTURA Y TOPOGRAFÍA DE EEUU ' \
+            '\n 62- corrente de gurley - SERVICIO DE AGRICULTURA Y TOPOGRAFÍA DE EEUU \n 63- pole de gunter - SERVICIO DE AGRICULTURA Y TOPOGRAFÍA DE EEUU \n 64- yard de gunter - SERVICIO DE AGRICULTURA Y TOPOGRAFÍA DE EEUU \n 65- link de ramsden - SERVICIO DE AGRICULTURA Y TOPOGRAFÍA DE EEUU \n 66- link de gunter - SERVICIO DE AGRICULTURA Y TOPOGRAFÍA DE EEUU ' \
+            '\n 67- link de gurley - SERVICIO DE AGRICULTURA Y TOPOGRAFÍA DE EEUU \n 68- pé de gunter - SERVICIO DE AGRICULTURA Y TOPOGRAFÍA DE EEUU')
             print ('\n 69- naut.leg - NÁUTICA \n 70- naut.mi - NÁUTICA \n 71- cbl - NÁUTICA \n 72- fath - NÁUTICA')
-            print ('\n 73- milha marítima norte-americana - NÁUTICA EUA \n 74- cabo norte-americano - NÁUTICA EUA \n 75- fath - NÁUTICA EUA')
+            print ('\n 73- milha marítima norte-americana - NÁUTICA EEUU \n 74- cabo norte-americano - NÁUTICA EEUU \n 75- fath - NÁUTICA EEUU')
             print ('\n 76- mira do almirantado - NÁUTICA INGLATERRA \n 77- cabo do almirantado - NÁUTICA INGLATERRA')
-            print ('\n 78- cuadra da Argentina - ESPANHA \n 79- cuadra da Bolívia - ESPANHA \n 80- cuadra do Chile - ESPANHA \n 81- cuadra da Colômbia - ESPANHA \n 82- cuadra do Equador - ESPANHA \n 83- cuadra da Nicarágua - ESPANHA \n 84- cuadra do Paraguai - ESPANHA \n 85- cuadra do Uruguai - ESPANHA ' \
-            '\n 86- vara da Argentina - ESPANHA \n 87- vara do Brasil - ESPANHA \n 88- vara do Chile - ESPANHA \n 89- vara da Colômbia - ESPANHA \n 90- vara da Costa Rica - ESPANHA \n 91- vara de Cuba - ESPANHA \n 92- vara da República Dominicana - ESPANHA \n 93- vara do Equador - ESPANHA \n 94- vara de El Salvador - ESPANHA ' \
-            '\n 95- vara da Guatemala - ESPANHA \n 96- vara de Honduras - ESPANHA \n 97- vara do México - ESPANHA \n 98- vara da Nicarágua - ESPANHA \n 99- vara do Panamá - ESPANHA \n 100- vara do Paraguai - ESPANHA \n 101- vara do Peru - peruano - ESPANHA \n 102- vara do Peru - espanhol - ESPANHA \n 103- vara do Uruguai - ESPANHA \n 104- vara de São Tomé e Príncipe - ESPANHA \n 105- vara da Venezuela - ESPANHA')
-            print ('\n 106- ri - JAPÃO \n 107- cho - JAPÃO \n 108- jo - JAPÃO \n 109- hiro - JAPÃO \n 110- ken - JAPÃO \n 111- shaku - JAPÃO \n 112- sun - JAPÃO \n 113- bu - JAPÃO \n 114- rin - JAPÃO \n 115- mo - JAPÃO')
+            print ('\n 78- cuadra da Argentina - ESPAÑA \n 79- cuadra da Bolívia - ESPAÑA \n 80- cuadra do Chile - ESPAÑA \n 81- cuadra da Colômbia - ESPAÑA \n 82- cuadra do Equador - ESPAÑA \n 83- cuadra da Nicarágua - ESPAÑA \n 84- cuadra do Paraguai - ESPAÑA \n 85- cuadra do Uruguai - ESPAÑA ' \
+            '\n 86- vara da Argentina - ESPAÑA \n 87- vara do Brasil - ESPAÑA \n 88- vara do Chile - ESPAÑA \n 89- vara da Colômbia - ESPAÑA \n 90- vara da Costa Rica - ESPAÑA \n 91- vara de Cuba - ESPAÑA \n 92- vara da República Dominicana - ESPAÑA \n 93- vara do Equador - ESPAÑA \n 94- vara de El Salvador - ESPAÑA ' \
+            '\n 95- vara da Guatemala - ESPAÑA \n 96- vara de Honduras - ESPAÑA \n 97- vara do México - ESPAÑA \n 98- vara da Nicarágua - ESPAÑA \n 99- vara do Panamá - ESPAÑA \n 100- vara do Paraguai - ESPAÑA \n 101- vara do Peru - peruano - ESPAÑA \n 102- vara do Peru - espanhol - ESPAÑA \n 103- vara do Uruguai - ESPAÑA \n 104- vara de São Tomé e Príncipe - ESPAÑA \n 105- vara da Venezuela - ESPAÑA')
+            print ('\n 106- ri - JAPÓN \n 107- cho - JAPÓN \n 108- jo - JAPÓN \n 109- hiro - JAPÓN \n 110- ken - JAPÓN \n 111- shaku - JAPÓN \n 112- sun - JAPÓN \n 113- bu - JAPÓN \n 114- rin - JAPÓN \n 115- mo - JAPÓN')
             print ('\n 116- li - CHINA 1915#1930 \n 117- yin - CHINA 1915#1930 \n 118- zhang - CHINA 1915#1930 \n 119- bu - CHINA 1915#1930 \n 120- chi - CHINA 1915#1930 \n 121- cun - CHINA 1915#1930 \n 122- fen - CHINA 1915#1930 \n 123- li - CHINA 1915#1930 \n 124- hao - CHINA 1915#1930 \n 125- si - CHINA 1915#1930 \n 126- hu - CHINA 1915#1930')
-            print ('\n 127- li - CHINA 1930#HOJE \n 128- dou - CHINA 1930#HOJE \n 129- sheng - CHINA 1930#HOJE \n 130- ge - CHINA 1930#HOJE \n 131- shao - CHINA 1930#HOJE \n 132- cuo - CHINA 1930#HOJE')
+            print ('\n 127- li - CHINA 1930#HOY \n 128- dou - CHINA 1930#HOY \n 129- sheng - CHINA 1930#HOY \n 130- ge - CHINA 1930#HOY \n 131- shao - CHINA 1930#HOY \n 132- cuo - CHINA 1930#HOY')
             print ('\n 133- cek - HONG KONG \n 134- tsun - HONG KONG \n 135- fan - HONG KONG')
             print ('\n 136- yot - TAILÂNDIA \n 137- sen - TAILÂNDIA \n 138- wa - TAILÂNDIA \n 139- sok - TAILÂNDIA \n 140- khuep - TAILÂNDIA \n 141- nio - TAILÂNDIA \n 142- krabiat - TAILÂNDIA')
             print ('\n 143- dioptria - ÓPTICA')
-            print ('\n 144- milha geográfica - GEOGRAFIA ALEMÃ')
-            print ('\n 145- U - COMPUTAÇÃO \n 146- HP - COMPUTAÇÃO')
+            print ('\n 144- milha geográfica - GEOGRAFÍA ALEMANA')
+            print ('\n 145- U - COMPUTACIÓN \n 146- HP - COMPUTACIÓN')
             print ('\n 147- paica - ATA \n 148- paica - PostScript - ATA \n 149- ponto - ATA \n 150- ponto - PostScript - ATA \n 151- px - ATA \n 152- twip - ATA \n')
             print ('\n 153- cícero - DIDOT \n 154- ponto - DIDOT \n')
-            print ('\n 155- ponto parisiense - CALÇADO EUROPEU')
-            print ('\n 156- z - ASTRONOMIA \n 157- pc - ASTRONOMIA \n 158- ano-luz - ASTRONOMIA \n 159- au - ASTRONOMIA \n 160- minuto-luz - ASTRONOMIA \n 161- segundo-luz - ASTRONOMIA ')
+            print ('\n 155- ponto parisiense - CALZADO EUROPEO')
+            print ('\n 156- z - ASTRONOMÍA \n 157- pc - ASTRONOMÍA \n 158- ano-luz - ASTRONOMÍA \n 159- au - ASTRONOMÍA \n 160- minuto-luz - ASTRONOMÍA \n 161- segundo-luz - ASTRONOMÍA ')
             print ('\n 162- microssegundo-luz - GRACE HOPPER \n 163- nanossegundo-luz - GRACE HOPPER \n 164- picossegundo-luz - GRACE HOPPER')
-            print ('\n 165- L - NATURAIS')
-            print ('\n 166- iteru - EGITO \n 167- knet - EGITO \n 168- nbiw - EGITO \n 169- meh niswt - EGITO \n 170- meh nedjes - EGITO \n 171- remen - EGITO \n 172- djeser - EGITO \n 173- pedj-aa - EGITO \n 174- pedj-sheser - EGITO \n 175- amem - EGITO \n 176- deret - EGITO \n 177- shesep - EGITO \n 178- djeba - EGITO \n')
-            print ('\n 179- schoinos - GRÉCIA \n 180- parasanges - GRÉCIA \n 181- dolichos - GRÉCIA \n 182- mílion - GRÉCIA \n 183- hippikon - GRÉCIA ' \
-            '\n 184- diaulos - GRÉCIA \n 185- stadion - GRÉCIA \n 186- estádio olímpico - GRÉCIA \n 187- estádio ático - GRÉCIA ' \
-            '\n 188- estádio ptolemaico - GRÉCIA \n 189- plethron - GRÉCIA \n 190- hamma - GRÉCIA \n 191- dekapous - GRÉCIA \n 192- akaina - GRÉCIA ' \
-            '\n 193- kalamos - GRÉCIA \n 194- orgyia - GRÉCIA \n 195- diploun bēma - GRÉCIA \n 196- haploun bēma - GRÉCIA \n 197- pēchys - GRÉCIA ' \
-            '\n 198- pygōn - GRÉCIA \n 199- pygmē - GRÉCIA \n 200- pous - GRÉCIA \n 201- spithamē - GRÉCIA \n 202- orthodōron - GRÉCIA \n 203- lichas - GRÉCIA ' \
-            '\n 204- hemipodion - GRÉCIA \n 205- dichas - GRÉCIA \n 206- dōron - GRÉCIA \n 207- palaiste - GRÉCIA \n 208- kondylos - GRÉCIA \n 209- daktylos - GRÉCIA')
+            print ('\n 165- L - NATURALES')
+            print ('\n 166- iteru - EGIPTO \n 167- knet - EGIPTO \n 168- nbiw - EGIPTO \n 169- meh niswt - EGIPTO \n 170- meh nedjes - EGIPTO \n 171- remen - EGIPTO \n 172- djeser - EGIPTO \n 173- pedj-aa - EGIPTO \n 174- pedj-sheser - EGIPTO \n 175- amem - EGIPTO \n 176- deret - EGIPTO \n 177- shesep - EGIPTO \n 178- djeba - EGIPTO \n')
+            print ('\n 179- schoinos - GRECIA \n 180- parasanges - GRECIA \n 181- dolichos - GRECIA \n 182- mílion - GRECIA \n 183- hippikon - GRECIA ' \
+            '\n 184- diaulos - GRECIA \n 185- stadion - GRECIA \n 186- estádio olímpico - GRECIA \n 187- estádio ático - GRECIA ' \
+            '\n 188- estádio ptolemaico - GRECIA \n 189- plethron - GRECIA \n 190- hamma - GRECIA \n 191- dekapous - GRECIA \n 192- akaina - GRECIA ' \
+            '\n 193- kalamos - GRECIA \n 194- orgyia - GRECIA \n 195- diploun bēma - GRECIA \n 196- haploun bēma - GRECIA \n 197- pēchys - GRECIA ' \
+            '\n 198- pygōn - GRECIA \n 199- pygmē - GRECIA \n 200- pous - GRECIA \n 201- spithamē - GRECIA \n 202- orthodōron - GRECIA \n 203- lichas - GRECIA ' \
+            '\n 204- hemipodion - GRECIA \n 205- dichas - GRECIA \n 206- dōron - GRECIA \n 207- palaiste - GRECIA \n 208- kondylos - GRECIA \n 209- daktylos - GRECIA')
             print ('\n 210- schœnus - ROMA \n 211- leuga - ROMA \n 212- mille passus - ROMA \n 213- stadium - ROMA \n 214- actus - ROMA \n 215- decempada - ROMA ' \
             '\n 216- pertica - ROMA \n 217- passus - ROMA \n 218- pes sestertius - ROMA \n 219- gradus - ROMA \n 220- cubitus - ROMA \n 221- palmipes - ROMA ' \
             '\n 222- pes - ROMA \n 223- palmus major - ROMA \n 224- palmus - ROMA \n 225- uncia - ROMA \n 226- pollex - ROMA \n 227- digitus - ROMA')
-            print ('\n 228- legua de por grado - ESPANHA ANTIGA \n 229- legua marina - ESPANHA ANTIGA \n 230- legua - ESPANHA ANTIGA \n 231- milla marina - ESPANHA ANTIGA \n 232- milla - ESPANHA ANTIGA \n 233- cuerda de Valencia - ESPANHA ANTIGA \n 234- cuerda - ESPANHA ANTIGA \n 235- estadal - ESPANHA ANTIGA \n 236- braza - ESPANHA ANTIGA \n 237- paso - ESPANHA ANTIGA \n 238- vara - ESPANHA ANTIGA ' \
-            '\n 239- codo de ribera - ESPANHA ANTIGA \n 240- codo - ESPANHA ANTIGA \n 241- pie - ESPANHA ANTIGA \n 242- palmo - ESPANHA ANTIGA \n 243- coto - ESPANHA ANTIGA \n 244- pulgada - ESPANHA ANTIGA \n 245- linea - ESPANHA ANTIGA \n 246- punto - ESPANHA ANTIGA')
-            print ('\n 247- braça - PORTUGAL ANTIGO \n 248- toesa - PORTUGAL ANTIGO \n 249- passo geométrico - PORTUGAL ANTIGO \n 250- vara - PORTUGAL ANTIGO \n 251- côvado - PORTUGAL ANTIGO \n 252- pé - PORTUGAL ANTIGO \n 253- palmo de craveira - PORTUGAL ANTIGO \n 254- polegada - PORTUGAL ANTIGO \n 255- linha - PORTUGAL ANTIGO \n 256- ponto - PORTUGAL ANTIGO')
-            print ('\n 257- lieue commune - FRANCÊS ANTIGO \n 258- lieue marine - FRANCÊS ANTIGO \n 259- lieue de post - FRANCÊS ANTIGO \n 260- lieue metrique - FRANCÊS ANTIGO \n 261- arpent - FRANCÊS ANTIGO \n 262- perche - FRANCÊS ANTIGO \n 263- toise - FRANCÊS ANTIGO \n 264- pied - FRANCÊS ANTIGO \n 265- pouce - FRANCÊS ANTIGO \n 266- linha - FRANCÊS ANTIGO')
-            print ('\n 267- milha - RÚSSIA ANTIGA \n 268- verst - RÚSSIA ANTIGA \n 269- mezhevaya verst - RÚSSIA ANTIGA \n 270- kosaya sazhen - RÚSSIA ANTIGA \n 271- sazhen - RÚSSIA ANTIGA \n 272- makhovaya sazhen - RÚSSIA ANTIGA \n 273- arshin - RÚSSIA ANTIGA \n 274- lokot - RÚSSIA ANTIGA \n 275- pé - RÚSSIA ANTIGA \n 276- pyad - RÚSSIA ANTIGA \n 277- vershok - RÚSSIA ANTIGA \n 278- polegada - RÚSSIA ANTIGA \n 279- linha - RÚSSIA ANTIGA')
-            print ('\n 280- meile - PRÚSSIA \n 281- ruthe - PRÚSSIA \n 282- elle - PRÚSSIA \n 283- fuss - PRÚSSIA \n 284- zoll - PRÚSSIA \n 285- linie - PRÚSSIA')
-            print ('\n 286- meile - ÁUSTRIA ANTIGA \n 287- ruthe - ÁUSTRIA ANTIGA \n 288- klafner - ÁUSTRIA ANTIGA \n 289- fuss - ÁUSTRIA ANTIGA \n 290- zoll - ÁUSTRIA ANTIGA \n 291- linie - ÁUSTRIA ANTIGA \n 292- punkt - ÁUSTRIA ANTIGA')
-            print ('\n 293- nymil - SUÉCIA ANTIGA \n 294- milha - SUÉCIA ANTIGA \n 295- fjärdingsväg - SUÉCIA ANTIGA ' \
-            '\n 296- rev anterior a 1855 - SUÉCIA ANTIGA \n 297- rev posterior a 1855 - SUÉCIA ANTIGA \n 298- stång - SUÉCIA ANTIGA ' \
-            '\n 299- famn - SUÉCIA ANTIGA \n 300- aln - SUÉCIA ANTIGA \n 301- fot - SUÉCIA ANTIGA \n 302- kvarter - SUÉCIA ANTIGA ' \
-            '\n 303- tvärhand - SUÉCIA ANTIGA \n 304- tum anterior a 1855 - SUÉCIA ANTIGA \n 305- tum posterior a 1855 - SUÉCIA ANTIGA ' \
-            '\n 306- linje anterior a 1855 - SUÉCIA ANTIGA \n 307- linje posterior a 1855 - SUÉCIA ANTIGA')
-            print ('\n 308- côvado - BÍBLIA \n 309- palmo - BÍBLIA \n 310- tephach - BÍBLIA \n 311- etzbah - BÍBLIA')
+            print ('\n 228- legua de por grado - ESPAÑA ANTIGUA \n 229- legua marina - ESPAÑA ANTIGUA \n 230- legua - ESPAÑA ANTIGUA \n 231- milla marina - ESPAÑA ANTIGUA \n 232- milla - ESPAÑA ANTIGUA \n 233- cuerda de Valencia - ESPAÑA ANTIGUA \n 234- cuerda - ESPAÑA ANTIGUA \n 235- estadal - ESPAÑA ANTIGUA \n 236- braza - ESPAÑA ANTIGUA \n 237- paso - ESPAÑA ANTIGUA \n 238- vara - ESPAÑA ANTIGUA ' \
+            '\n 239- codo de ribera - ESPAÑA ANTIGUA \n 240- codo - ESPAÑA ANTIGUA \n 241- pie - ESPAÑA ANTIGUA \n 242- palmo - ESPAÑA ANTIGUA \n 243- coto - ESPAÑA ANTIGUA \n 244- pulgada - ESPAÑA ANTIGUA \n 245- linea - ESPAÑA ANTIGUA \n 246- punto - ESPAÑA ANTIGUA')
+            print ('\n 247- braça - PORTUGAL ANTIGUO \n 248- toesa - PORTUGAL ANTIGUO \n 249- passo geométrico - PORTUGAL ANTIGUO \n 250- vara - PORTUGAL ANTIGUO \n 251- côvado - PORTUGAL ANTIGUO \n 252- pé - PORTUGAL ANTIGUO \n 253- palmo de craveira - PORTUGAL ANTIGUO \n 254- polegada - PORTUGAL ANTIGUO \n 255- linha - PORTUGAL ANTIGUO \n 256- ponto - PORTUGAL ANTIGUO')
+            print ('\n 257- lieue commune - FRANCÉS ANTIGUO \n 258- lieue marine - FRANCÉS ANTIGUO \n 259- lieue de post - FRANCÉS ANTIGUO \n 260- lieue metrique - FRANCÉS ANTIGUO \n 261- arpent - FRANCÉS ANTIGUO \n 262- perche - FRANCÉS ANTIGUO \n 263- toise - FRANCÉS ANTIGUO \n 264- pied - FRANCÉS ANTIGUO \n 265- pouce - FRANCÉS ANTIGUO \n 266- linha - FRANCÉS ANTIGUO')
+            print ('\n 267- milha - RUSIA ANTIGUA \n 268- verst - RUSIA ANTIGUA \n 269- mezhevaya verst - RUSIA ANTIGUA \n 270- kosaya sazhen - RUSIA ANTIGUA \n 271- sazhen - RUSIA ANTIGUA \n 272- makhovaya sazhen - RUSIA ANTIGUA \n 273- arshin - RUSIA ANTIGUA \n 274- lokot - RUSIA ANTIGUA \n 275- pé - RUSIA ANTIGUA \n 276- pyad - RUSIA ANTIGUA \n 277- vershok - RUSIA ANTIGUA \n 278- polegada - RUSIA ANTIGUA \n 279- linha - RUSIA ANTIGUA')
+            print ('\n 280- meile - PRUSIA \n 281- ruthe - PRUSIA \n 282- elle - PRUSIA \n 283- fuss - PRUSIA \n 284- zoll - PRUSIA \n 285- linie - PRUSIA')
+            print ('\n 286- meile - AUSTRIA ANTIGUA \n 287- ruthe - AUSTRIA ANTIGUA \n 288- klafner - AUSTRIA ANTIGUA \n 289- fuss - AUSTRIA ANTIGUA \n 290- zoll - AUSTRIA ANTIGUA \n 291- linie - AUSTRIA ANTIGUA \n 292- punkt - AUSTRIA ANTIGUA')
+            print ('\n 293- nymil - SUECIA ANTIGUA \n 294- milha - SUECIA ANTIGUA \n 295- fjärdingsväg - SUECIA ANTIGUA ' \
+            '\n 296- rev anterior a 1855 - SUECIA ANTIGUA \n 297- rev posterior a 1855 - SUECIA ANTIGUA \n 298- stång - SUECIA ANTIGUA ' \
+            '\n 299- famn - SUECIA ANTIGUA \n 300- aln - SUECIA ANTIGUA \n 301- fot - SUECIA ANTIGUA \n 302- kvarter - SUECIA ANTIGUA ' \
+            '\n 303- tvärhand - SUECIA ANTIGUA \n 304- tum anterior a 1855 - SUECIA ANTIGUA \n 305- tum posterior a 1855 - SUECIA ANTIGUA ' \
+            '\n 306- linje anterior a 1855 - SUECIA ANTIGUA \n 307- linje posterior a 1855 - SUECIA ANTIGUA')
+            print ('\n 308- côvado - BIBLIA \n 309- palmo - BIBLIA \n 310- tephach - BIBLIA \n 311- etzbah - BIBLIA')
 
             opcao = input('\n¿A qué unidad quieres convertir los km? ').strip()
 
@@ -2428,10 +2428,10 @@ while (repetir=="Si"):
             hv = n1 / 10 * 7716
             hw = n1 * 15432
             print('\nOpciones de conversión:')
-            print ('\n 1- kT = Quilotonne (t) - COMUM \n 2- T = Tonne (t) - COMUM \n 3- kg = Quilograma (kg) - COMUM \n 4- g = Grama (g) - COMUM ' \
-            '\n 5- cg = Centigrama (cg) - COMUM \n 6- mg = Miligrama (mg) - COMUM \n 7- mcg = Micrograma (mcg) - COMUM \n 8- N = Newton (N) - COMUM ' \
-            '\n 9- kN = Quilonewton (kN) - COMUM \n 10- ct = Quilate (ct) - COMUM \n 11- centner métrico = Centner métrico - COMUM ' \
-            '\n 12- quintal métrico = Quintal métrico - COMUM \n 13- amu = Unidade de massa atômica (amu) - COMUM \n 14- M = Massa molar (M) - COMUM')
+            print ('\n 1- kT = Quilotonne (t) - COMÚN \n 2- T = Tonne (t) - COMÚN \n 3- kg = Quilograma (kg) - COMÚN \n 4- g = Grama (g) - COMÚN ' \
+            '\n 5- cg = Centigrama (cg) - COMÚN \n 6- mg = Miligrama (mg) - COMÚN \n 7- mcg = Micrograma (mcg) - COMÚN \n 8- N = Newton (N) - COMÚN ' \
+            '\n 9- kN = Quilonewton (kN) - COMÚN \n 10- ct = Quilate (ct) - COMÚN \n 11- centner métrico = Centner métrico - COMÚN ' \
+            '\n 12- quintal métrico = Quintal métrico - COMÚN \n 13- amu = Unidade de massa atômica (amu) - COMÚN \n 14- M = Massa molar (M) - COMÚN')
             print ('\n 15- lb = Libra (lb) - APOTHECARIES \n 16- onça = Onça (oz) - APOTHECARIES \n 17- dracma = Dracma (dr) - APOTHECARIES \n 18- escrópulo = Escrópulo (scr) - APOTHECARIES ' \
             '\n 19- grão = Grão (gr) - APOTHECARIES')
             print ('\n 20- lb = Libra (lb) - TROY \n 21- ozt = Onça troy (ozt) - TROY \n 22- dwt = Pennyweight (dwt) - TROY \n 23- ct = Quilate (ct) - TROY ' \
@@ -2441,33 +2441,33 @@ while (repetir=="Si"):
             '\n 33- st = Stone (st) - AVOIRDUPOIS \n 34- lb = Libra (lb) - AVOIRDUPOIS \n 35- oz = Onça (oz) - AVOIRDUPOIS \n 36- dr = Dracma (dr) - AVOIRDUPOIS \n 37- gr = Grão (gr) - AVOIRDUPOIS')
             print ('\n 38- @ = Arroba (@) - PORTUGAL \n 39- T = Tonelada (T) - PORTUGAL \n 40- quintal = Quintal (quintal) - PORTUGAL \n 41- arrátel = Arrátel (arrátel) - PORTUGAL ' \
             '\n 42- quarta = Quarta (quarta) - PORTUGAL \n 43- onça = Onça (onça) - PORTUGAL \n 44- oitava = Oitava (oitava) - PORTUGAL \n 45- escrópulo = Escrópulo (escrópulo) - PORTUGAL \n 46- grão = Grão (grão) - PORTUGAL')
-            print ('\n 47- T = Tonelada (T) - ESPANHA \n 48- alqueire de trigo = Alqueire de trigo (alqueire de trigo) - ESPANHA \n 49- alqueire de centeio = Alqueire de centeio (alqueire de centeio) - ESPANHA \n 50- alqueire de cevada = Alqueire de cevada (alqueire de cevada) - ESPANHA ' \
-            '\n 51- quintal = Quintal (quintal) - ESPANHA \n 52- @ = Arroba (@) - ESPANHA \n 53- £ = Libra (£) - ESPANHA \n 54- marco = Marco (marco) - ESPANHA \n 55- cuarterón = Cuarterón (cuarterón) - ESPANHA \n 56- onça = Onça (onça) - ESPANHA ' \
-            '\n 57- oitava = Oitava (oitava) - ESPANHA \n 58- adame = Adame (adame) - ESPANHA \n 59- grão = Grão (grão) - ESPANHA')
-            print ('\n 60- quintal = Quintal (quintal) - FRANÇA \n 61- £ = Libra (£) - FRANÇA')
-            print ('\n 62- berkovets = Berkovets (berkovets) - RÚSSIA \n 63- pud = Pud (pud) - RÚSSIA \n 64- £ = Libra (£) - RÚSSIA \n 65- lot = Lot (lot) - RÚSSIA \n 66- zolotnik = Zolotnik (zolotnik) - RÚSSIA \n 67- dolya = Dolya (dolya) - RÚSSIA')
-            print ('\n 68- schiffspfund = Schiffspfund (schiffspfund) - PRÚSSIA \n 69- doppelzentner = Doppelzentner (doppelzentner) - PRÚSSIA \n 70- zentner = Zentner (zentner) - PRÚSSIA \n 71- stain = Stain (stain) - PRÚSSIA \n 72- pfund = Pfund (pfund) - PRÚSSIA \n 73- mark = Mark (mark) - PRÚSSIA ' \
-            '\n 74- unze = Unze (unze) - PRÚSSIA \n 75- loth = Loth (loth) - PRÚSSIA \n 76- quentchen = Quentchen (quentchen) - PRÚSSIA \n 77- quint = Quint (quint) - PRÚSSIA \n 78- pfennig = Pfennig (pfennig) - PRÚSSIA \n 79- gran = Gran (gran) - PRÚSSIA')
-            print ('\n 80- kauch = Kauch (kauch) - ÁUSTRIA \n 81- saum = Saum (saum) - ÁUSTRIA \n 82- zentner = Zentner (zentner) - ÁUSTRIA \n 83- stain = Stain (stain) - ÁUSTRIA \n 84- pfund = Pfund (pfund) - ÁUSTRIA \n 85- mark = Mark (mark) - ÁUSTRIA ' \
-            '\n 86- vierding = Vierding (vierding) - ÁUSTRIA \n 87- unze = Unze (unze) - ÁUSTRIA \n 88- loth = Loth (loth) - ÁUSTRIA \n 89- quentchen = Quentchen (quentchen) - ÁUSTRIA \n 90- denzt = Denzt (denzt) - ÁUSTRIA')
-            print ('\n 91- skeppspund = Skeppspund (skeppspund) - SUÉCIA \n 92- lispund = Lispund (lispund) - SUÉCIA \n 93- bismerpund = Bismerpund (bismerpund) - SUÉCIA \n 94- skålpund = Skålpund (skålpund) - SUÉCIA \n 95- mark = Mark (mark) - SUÉCIA \n 96- ort = Ort (ort) - SUÉCIA')
+            print ('\n 47- T = Tonelada (T) - ESPAÑA \n 48- alqueire de trigo = Alqueire de trigo (alqueire de trigo) - ESPAÑA \n 49- alqueire de centeio = Alqueire de centeio (alqueire de centeio) - ESPAÑA \n 50- alqueire de cevada = Alqueire de cevada (alqueire de cevada) - ESPAÑA ' \
+            '\n 51- quintal = Quintal (quintal) - ESPAÑA \n 52- @ = Arroba (@) - ESPAÑA \n 53- £ = Libra (£) - ESPAÑA \n 54- marco = Marco (marco) - ESPAÑA \n 55- cuarterón = Cuarterón (cuarterón) - ESPAÑA \n 56- onça = Onça (onça) - ESPAÑA ' \
+            '\n 57- oitava = Oitava (oitava) - ESPAÑA \n 58- adame = Adame (adame) - ESPAÑA \n 59- grão = Grão (grão) - ESPAÑA')
+            print ('\n 60- quintal = Quintal (quintal) - FRANCIA \n 61- £ = Libra (£) - FRANCIA')
+            print ('\n 62- berkovets = Berkovets (berkovets) - RUSIA \n 63- pud = Pud (pud) - RUSIA \n 64- £ = Libra (£) - RUSIA \n 65- lot = Lot (lot) - RUSIA \n 66- zolotnik = Zolotnik (zolotnik) - RUSIA \n 67- dolya = Dolya (dolya) - RUSIA')
+            print ('\n 68- schiffspfund = Schiffspfund (schiffspfund) - PRUSIA \n 69- doppelzentner = Doppelzentner (doppelzentner) - PRUSIA \n 70- zentner = Zentner (zentner) - PRUSIA \n 71- stain = Stain (stain) - PRUSIA \n 72- pfund = Pfund (pfund) - PRUSIA \n 73- mark = Mark (mark) - PRUSIA ' \
+            '\n 74- unze = Unze (unze) - PRUSIA \n 75- loth = Loth (loth) - PRUSIA \n 76- quentchen = Quentchen (quentchen) - PRUSIA \n 77- quint = Quint (quint) - PRUSIA \n 78- pfennig = Pfennig (pfennig) - PRUSIA \n 79- gran = Gran (gran) - PRUSIA')
+            print ('\n 80- kauch = Kauch (kauch) - AUSTRIA \n 81- saum = Saum (saum) - AUSTRIA \n 82- zentner = Zentner (zentner) - AUSTRIA \n 83- stain = Stain (stain) - AUSTRIA \n 84- pfund = Pfund (pfund) - AUSTRIA \n 85- mark = Mark (mark) - AUSTRIA ' \
+            '\n 86- vierding = Vierding (vierding) - AUSTRIA \n 87- unze = Unze (unze) - AUSTRIA \n 88- loth = Loth (loth) - AUSTRIA \n 89- quentchen = Quentchen (quentchen) - AUSTRIA \n 90- denzt = Denzt (denzt) - AUSTRIA')
+            print ('\n 91- skeppspund = Skeppspund (skeppspund) - SUECIA \n 92- lispund = Lispund (lispund) - SUECIA \n 93- bismerpund = Bismerpund (bismerpund) - SUECIA \n 94- skålpund = Skålpund (skålpund) - SUECIA \n 95- mark = Mark (mark) - SUECIA \n 96- ort = Ort (ort) - SUECIA')
             print ('\n 97- jin = Jin (jin) - CHINA 1915#1930 \n 98- liang = Liang (liang) - CHINA 1915#1930 \n 99- qian = Qian (qian) - CHINA 1915#1930 \n 100- fen = Fen (fen) - CHINA 1915#1930 \n 101- li = Li (li) - CHINA 1915#1930 \n 102- hao = Hao (hao) - CHINA 1915#1930')
             print ('\n 103- dan = Dan (dan) - CHINA 1930#1959 \n 104- jin = Jin (jin) - CHINA 1930#1959 \n 105- liang = Liang (liang) - CHINA 1930#1959 \n 106- qian = Qian (qian) - CHINA 1930#1959 \n 107- fen = Fen (fen) - CHINA 1930#1959 \n 108- li = Li (li) - CHINA 1930#1959 \n 109- hao = Hao (hao) - CHINA 1930#1959 \n 110- si = Si (si) - CHINA 1930#1959')
-            print ('\n 111- dan = Dan (dan) - CHINA 1959#HOJE \n 112- jin = Jin (jin) - CHINA 1959#HOJE \n 113- liang = Liang (liang) - CHINA 1959#HOJE \n 114- qian = Qian (qian) - CHINA 1959#HOJE \n 115- fen = Fen (fen) - CHINA 1959#HOJE \n 116- li = Li (li) - CHINA 1959#HOJE \n 117- hao = Hao (hao) - CHINA 1959#HOJE \n 118- si = Si (si) - CHINA 1959#HOJE \n 119- hu = Hu (hu) - CHINA 1959#HOJE')
-            print ('\n 120- T curta - EUA \n 121- lb = Libra (lb) - EUA \n 122- oz = Onça (oz) - EUA') 
+            print ('\n 111- dan = Dan (dan) - CHINA 1959#HOY \n 112- jin = Jin (jin) - CHINA 1959#HOY \n 113- liang = Liang (liang) - CHINA 1959#HOY \n 114- qian = Qian (qian) - CHINA 1959#HOY \n 115- fen = Fen (fen) - CHINA 1959#HOY \n 116- li = Li (li) - CHINA 1959#HOY \n 117- hao = Hao (hao) - CHINA 1959#HOY \n 118- si = Si (si) - CHINA 1959#HOY \n 119- hu = Hu (hu) - CHINA 1959#HOY')
+            print ('\n 120- T curta - EEUU \n 121- lb = Libra (lb) - EEUU \n 122- oz = Onça (oz) - EEUU') 
             print ('\n 123- picul - HONG KONG \n 124- catty - HONG KONG \n 125- tael - HONG KONG \n 126- mace - HONG KONG \n 127- candareen - HONG KONG \n 128- tael troy - HONG KONG \n 129- mace troy - HONG KONG \n 130- candareen troy - HONG KONG')
-            print ('\n 131- kan - JAPÃO \n 132- kin - JAPÃO \n 133- nyakume - JAPÃO \n 134- monnme - JAPÃO \n 135- fun - JAPÃO')
-            print ('\n 136- candy - ÍNDIA \n 137- maund - ÍNDIA \n 138- dhurra - ÍNDIA \n 139- halk - ÍNDIA \n 140- sèr - ÍNDIA \n 141- powa - ÍNDIA \n 142- chittak - ÍNDIA \n 143- parah - ÍNDIA \n 144- tank - ÍNDIA \n 145- tolä - ÍNDIA \n 146- māshā - ÍNDIA \n 147- rattī - ÍNDIA \n')
+            print ('\n 131- kan - JAPÓN \n 132- kin - JAPÓN \n 133- nyakume - JAPÓN \n 134- monnme - JAPÓN \n 135- fun - JAPÓN')
+            print ('\n 136- candy - INDIA \n 137- maund - INDIA \n 138- dhurra - INDIA \n 139- halk - INDIA \n 140- sèr - INDIA \n 141- powa - INDIA \n 142- chittak - INDIA \n 143- parah - INDIA \n 144- tank - INDIA \n 145- tolä - INDIA \n 146- māshā - INDIA \n 147- rattī - INDIA \n')
             print ('\n 148- hap - TAILÂNDIA \n 149- chang - TAILÂNDIA \n 150- tamlueng - TAILÂNDIA \n 151- baht - TAILÂNDIA \n 152- baht ouro - TAILÂNDIA \n 153- mayon - TAILÂNDIA ' \
             '\n 154- salueng - TAILÂNDIA \n 155- fueang - TAILÂNDIA \n 156- seek - TAILÂNDIA \n 157- siao - TAILÂNDIA \n 158- ath - TAILÂNDIA \n 159- solos - TAILÂNDIA \n 160- bia - TAILÂNDIA')
             print ('\n 161- £ - ROMA \n 162- onça - ROMA \n 163- semionça - ROMA \n 164- duella - ROMA \n 165- sicílico - ROMA \n 166- sextula - ROMA \n 167- dracma - ROMA \n 168- semisextula - ROMA ' \
             '\n 169- escrópulo - ROMA \n 170- óbolo - ROMA \n 171- síliqua - ROMA \n 172- deunx - ROMA \n 173- dextans - ROMA \n 174- dodrans - ROMA \n 175- bes - ROMA \n 176- septunx - ROMA \n 177- semisse - ROMA \n 178- quincunx - ROMA \n 179- triente - ROMA \n 180- quadrante - ROMA \n 181- terúncio - ROMA \n 182- sextante - ROMA \n 183- sescúncia - ROMA')
-            print ('\n 184- talento - GRÉCIA EGINÉTICO \n 185- mina - GRÉCIA EGINÉTICO \n 186- decadracma - GRÉCIA EGINÉTICO \n 187- tetradracma - GRÉCIA EGINÉTICO \n 188- didracma - GRÉCIA EGINÉTICO ' \
-            '\n 189- estáter - GRÉCIA EGINÉTICO \n 190- dracma - GRÉCIA EGINÉTICO \n 191- tetróbolo - GRÉCIA EGINÉTICO \n 192- trióbolo - GRÉCIA EGINÉTICO \n 193- dióbolo - GRÉCIA EGINÉTICO \n 194- óbolo - GRÉCIA EGINÉTICO \n 195- tritartemorion - GRÉCIA EGINÉTICO \n 196- hemióbolo - GRÉCIA EGINÉTICO \n 197- trihemitetartemorion - GRÉCIA EGINÉTICO \n 198- tetartemorion - GRÉCIA EGINÉTICO \n 199- hemitetartemorion - GRÉCIA EGINÉTICO')
-            print ('\n 200- talento - GRÉCIA ÁTICO \n 201- mina - GRÉCIA ÁTICO \n 202- decadracma - GRÉCIA ÁTICO \n 203- tetradracma - GRÉCIA ÁTICO \n 204- didracma - GRÉCIA ÁTICO ' \
-            '\n 205- estáter - GRÉCIA ÁTICO \n 206- dracma - GRÉCIA ÁTICO \n 207- tetróbolo - GRÉCIA ÁTICO \n 208- trióbolo - GRÉCIA ÁTICO \n 209- dióbolo - GRÉCIA ÁTICO \n 210- óbolo - GRÉCIA ÁTICO \n 211- tritartemorion - GRÉCIA ÁTICO \n 212- hemióbolo - GRÉCIA ÁTICO \n 213- trihemitetartemorion - GRÉCIA ÁTICO \n 214- tetartemorion - GRÉCIA ÁTICO \n 215- hemitetartemorion - GRÉCIA ÁTICO')
+            print ('\n 184- talento - GRECIA EGINÉTICO \n 185- mina - GRECIA EGINÉTICO \n 186- decadracma - GRECIA EGINÉTICO \n 187- tetradracma - GRECIA EGINÉTICO \n 188- didracma - GRECIA EGINÉTICO ' \
+            '\n 189- estáter - GRECIA EGINÉTICO \n 190- dracma - GRECIA EGINÉTICO \n 191- tetróbolo - GRECIA EGINÉTICO \n 192- trióbolo - GRECIA EGINÉTICO \n 193- dióbolo - GRECIA EGINÉTICO \n 194- óbolo - GRECIA EGINÉTICO \n 195- tritartemorion - GRECIA EGINÉTICO \n 196- hemióbolo - GRECIA EGINÉTICO \n 197- trihemitetartemorion - GRECIA EGINÉTICO \n 198- tetartemorion - GRECIA EGINÉTICO \n 199- hemitetartemorion - GRECIA EGINÉTICO')
+            print ('\n 200- talento - GRECIA ÁTICO \n 201- mina - GRECIA ÁTICO \n 202- decadracma - GRECIA ÁTICO \n 203- tetradracma - GRECIA ÁTICO \n 204- didracma - GRECIA ÁTICO ' \
+            '\n 205- estáter - GRECIA ÁTICO \n 206- dracma - GRECIA ÁTICO \n 207- tetróbolo - GRECIA ÁTICO \n 208- trióbolo - GRECIA ÁTICO \n 209- dióbolo - GRECIA ÁTICO \n 210- óbolo - GRECIA ÁTICO \n 211- tritartemorion - GRECIA ÁTICO \n 212- hemióbolo - GRECIA ÁTICO \n 213- trihemitetartemorion - GRECIA ÁTICO \n 214- tetartemorion - GRECIA ÁTICO \n 215- hemitetartemorion - GRECIA ÁTICO')
             print ('\n 216- metical - FÉ BAHÁ´I \n 217- nakhud - FÉ BAHÁ´I')
-            print ('\n 218- talento - BÍBLIA \n 219- mina - BÍBLIA \n 220- siclo - BÍBLIA \n 221- pim - BÍBLIA \n 222- beca - BÍBLIA \n 223- gera - BÍBLIA')
+            print ('\n 218- talento - BIBLIA \n 219- mina - BIBLIA \n 220- siclo - BIBLIA \n 221- pim - BIBLIA \n 222- beca - BIBLIA \n 223- gera - BIBLIA')
 
             opcao = input('\n¿A qué unidad quieres convertir los kg? ').strip()
 
