@@ -148,28 +148,28 @@ while (repetir=="Si"):
 
             print('\nOpciones de conversión:')
             print ('\n 1- m² - MEDIDAS MÉTRICAS \n 2- dm² - MEDIDAS MÉTRICAS \n 3- cm² - MEDIDAS MÉTRICAS \n 4- mm² - MEDIDAS MÉTRICAS \n 5- b - MEDIDAS MÉTRICAS \n 6- km² - MEDIDAS MÉTRICAS \n 7- hectare - MEDIDAS MÉTRICAS \n 8- decare - MEDIDAS MÉTRICAS \n 9- a - MEDIDAS MÉTRICAS')
-            print ('\n 10- township - EUA E INGLATERRA \n 11- milha quadrada - EUA E INGLATERRA \n 12- homestead - EUA E INGLATERRA \n 13- acre - EUA E INGLATERRA \n 14- rood - EUA E INGLATERRA \n 15- rod quadrado - EUA E INGLATERRA \n 16- perch - EUA E INGLATERRA \n 17- yd² - EUA E INGLATERRA \n 18- ft² - EUA E INGLATERRA \n 19- in² - EUA E INGLATERRA \n 20- th² - EUA E INGLATERRA')
-            print ('\n 21- shaku - JAPÃO \n 22- go - JAPÃO \n 23- jo - JAPÃO \n 24- tsubo - JAPÃO \n 25- bu - JAPÃO \n 26- se - JAPÃO \n 27- tan - JAPÃO \n 28- cho - JAPÃO')
+            print ('\n 10- township - EEUU Y INGLATERRA \n 11- milha quadrada - EEUU Y INGLATERRA \n 12- homestead - EEUU Y INGLATERRA \n 13- acre - EEUU Y INGLATERRA \n 14- rood - EEUU Y INGLATERRA \n 15- rod quadrado - EEUU Y INGLATERRA \n 16- perch - EEUU Y INGLATERRA \n 17- yd² - EEUU Y INGLATERRA \n 18- ft² - EEUU Y INGLATERRA \n 19- in² - EEUU Y INGLATERRA \n 20- th² - EEUU Y INGLATERRA')
+            print ('\n 21- shaku - JAPÓN \n 22- go - JAPÓN \n 23- jo - JAPÓN \n 24- tsubo - JAPÓN \n 25- bu - JAPÓN \n 26- se - JAPÓN \n 27- tan - JAPÓN \n 28- cho - JAPÓN')
             print ('\n 29- qing - CHINA 1915#1930 \n 30- mu - CHINA 1915#1930 \n 31- fen - CHINA 1915#1930 \n 32- fang zhang - CHINA 1915#1930 \n 33- li - CHINA 1915#1930 \n 34- hao - CHINA 1915#1930 \n 35- fang chi - CHINA 1915#1930 \n 36- fang cun - CHINA 1915#1930')
-            print ('\n 37- qing - CHINA 1930#HOJE \n 38- mu - CHINA 1930#HOJE \n 39- fen - CHINA 1930#HOJE \n 40- fang zhang - CHINA 1930#HOJE \n 41- li - CHINA 1930#HOJE \n 42- hao - CHINA 1930#HOJE \n 43- fang chi - CHINA 1930#HOJE \n 44- fang cun - CHINA 1930#HOJE')
+            print ('\n 37- qing - CHINA 1930#HOY \n 38- mu - CHINA 1930#HOY \n 39- fen - CHINA 1930#HOY \n 40- fang zhang - CHINA 1930#HOY \n 41- li - CHINA 1930#HOY \n 42- hao - CHINA 1930#HOY \n 43- fang chi - CHINA 1930#HOY \n 44- fang cun - CHINA 1930#HOY')
             print ('\n 45- rai - TAILÂNDIA \n 46- ngan - TAILÂNDIA \n 47- tarang wah - TAILÂNDIA')
-            print ('\n 48- plethron - GRÉCIA \n 49- aroura - GRÉCIA \n 50- hektos - GRÉCIA \n 51- hēmiektos - GRÉCIA \n 52- dodecaorgion - GRÉCIA \n 53- decaorgion - GRÉCIA \n 54- akaina - GRÉCIA \n 55- hexapodēs ou orgya - GRÉCIA \n 56- bema ou diploum - GRÉCIA \n 57- pous - GRÉCIA')
+            print ('\n 48- plethron - GRECIA \n 49- aroura - GRECIA \n 50- hektos - GRECIA \n 51- hēmiektos - GRECIA \n 52- dodecaorgion - GRECIA \n 53- decaorgion - GRECIA \n 54- akaina - GRECIA \n 55- hexapodēs ou orgya - GRECIA \n 56- bema ou diploum - GRECIA \n 57- pous - GRECIA')
             print ('\n 58- saltus - ROMA \n 59- centurium - ROMA \n 60- geredium - ROMA \n 61- uger - ROMA \n 62- akt quadrado - ROMA \n 63- klima - ROMA \n 64- akt quadrado pequeno - ROMA \n 65- decimpeda quadrada - ROMA \n 66- ped quadrado comum - ROMA \n 67- ped quadrado legal - ROMA')
-            print ('\n 68- arpent - FRANCÊS ANTIGO \n 69- perche - FRANCÊS ANTIGO \n 70- toise quadrada - FRANCÊS ANTIGO \n 71- pied - FRANCÊS ANTIGO \n 72- pouce - FRANCÊS ANTIGO')
-            print ('\n 73- legua - ESPANHA ANTIGA \n 74- labor - ESPANHA ANTIGA \n 75- caballería - ESPANHA ANTIGA \n 76- yugada - ESPANHA ANTIGA \n 77- fanegada - ESPANHA ANTIGA \n 78- aranzada - ESPANHA ANTIGA \n 79- cuerda de Puerto Rico - ESPANHA ANTIGA \n 80- celemin - ESPANHA ANTIGA \n 81- cuartillo - ESPANHA ANTIGA \n 82- estadal quadrado - ESPANHA ANTIGA \n 83- vara quadrada - ESPANHA ANTIGA \n 84- pie cuadrado - ESPANHA ANTIGA')
-            print ('\n 85- braça quadrada - PORTUGAL ANTIGO \n 86- vara quadrada - PORTUGAL ANTIGO \n 87- palmo quadrado - PORTUGAL ANTIGO \n 88- polegada quadrada - PORTUGAL ANTIGO')
-            print ('\n 89- desyatina país - RÚSSIA ANTIGA \n 90- desyatina fazendeiros - RÚSSIA ANTIGA \n 91- verst quadrado - RÚSSIA ANTIGA \n 92- arshin quadrado - RÚSSIA ANTIGA \n 93- pé quadrado - RÚSSIA ANTIGA')
-            print ('\n 94- dulum (дулум) da Bósnia, Herzegovina e Sérvia - AINDA EM USO \n 95- dynym ou dylym da Albânia - AINDA EM USO \n 96- donum do Chipre - AINDA EM USO ' \
-            '\n 97- skales (σκάλες) do Chipre - AINDA EM USO \n 98- stremma grega - AINDA EM USO \n 99- stremma turca da Grécia - AINDA EM USO \n 100- dunam do Iraque - AINDA EM USO ' \
-            '\n 101- dunam (dönüm, دونم) da Turquia, Síria, Israel, Palestina, Jordânia, Líbano - AINDA EM USO ' \
-            '\n 102- dunam (dönüm, دونم) antigo (anterior a 1928) da Turquia, Síria, Israel, Palestina, Jordânia, Líbano - AINDA EM USO ' \
-            '\n 103- feddan (فدّان) do Egito, Sudão, Síria, Omã - AINDA EM USO \n 104- kirat (قيراط) do Egito - AINDA EM USO \n 105- manzana da Argentina - AINDA EM USO \n 106- manzana da Belize - AINDA EM USO ' \
-            '\n 107- manzana da Costa Rica - AINDA EM USO \n 108- manzana da Guatemala - AINDA EM USO \n 109- manzana da Honduras - AINDA EM USO \n 110- manzana da Nicarágua - AINDA EM USO \n 111- cuadra da Argentina - AINDA EM USO ' \
-            '\n 112- cuadra do Chile - AINDA EM USO \n 113- cuadra do Equador - AINDA EM USO \n 114- cuadra do Paraguai - AINDA EM USO \n 115- cuadra do Peru - AINDA EM USO \n 116- cuadra do Uruguai - AINDA EM USO ' \
-            '\n 117- vara quadrada do Panamá e da Colômbia - AINDA EM USO \n 118- vara quadrada do Chile, Costa Rica, República Dominicana, Equador, El Salvador, Guatemala, Honduras, México, Nicarágua, Peru, São Tomé e Príncipe, Venezuela - AINDA EM USO ' \
-            '\n 119- vara quadrada de Cuba - AINDA EM USO \n 120- vara quadrada da Argentina, Paraguai, Uruguai - AINDA EM USO \n 121- vara quadrada do Brasil - AINDA EM USO')
-            print ('\n 122- polegada circular - BITOLA DOS FIOS \n 123- kcmil, MCM - BITOLA DOS FIOS \n 124- cmil - BITOLA DOS FIOS')
-            print ('\n 125- L² - NATURAIS')
+            print ('\n 68- arpent - FRANCÉS ANTIGUO \n 69- perche - FRANCÉS ANTIGUO \n 70- toise quadrada - FRANCÉS ANTIGUO \n 71- pied - FRANCÉS ANTIGUO \n 72- pouce - FRANCÉS ANTIGUO')
+            print ('\n 73- legua - ESPAÑA ANTIGUA \n 74- labor - ESPAÑA ANTIGUA \n 75- caballería - ESPAÑA ANTIGUA \n 76- yugada - ESPAÑA ANTIGUA \n 77- fanegada - ESPAÑA ANTIGUA \n 78- aranzada - ESPAÑA ANTIGUA \n 79- cuerda de Puerto Rico - ESPAÑA ANTIGUA \n 80- celemin - ESPAÑA ANTIGUA \n 81- cuartillo - ESPAÑA ANTIGUA \n 82- estadal quadrado - ESPAÑA ANTIGUA \n 83- vara quadrada - ESPAÑA ANTIGUA \n 84- pie cuadrado - ESPAÑA ANTIGUA')
+            print ('\n 85- braça quadrada - PORTUGAL ANTIGUO \n 86- vara quadrada - PORTUGAL ANTIGUO \n 87- palmo quadrado - PORTUGAL ANTIGUO \n 88- polegada quadrada - PORTUGAL ANTIGUO')
+            print ('\n 89- desyatina país - RUSIA ANTIGUA \n 90- desyatina fazendeiros - RUSIA ANTIGUA \n 91- verst quadrado - RUSIA ANTIGUA \n 92- arshin quadrado - RUSIA ANTIGUA \n 93- pé quadrado - RUSIA ANTIGUA')
+            print ('\n 94- dulum (дулум) da Bósnia, Herzegovina e Sérvia - AÚN EN USO \n 95- dynym ou dylym da Albânia - AÚN EN USO \n 96- donum do Chipre - AÚN EN USO ' \
+            '\n 97- skales (σκάλες) do Chipre - AÚN EN USO \n 98- stremma grega - AÚN EN USO \n 99- stremma turca da Grécia - AÚN EN USO \n 100- dunam do Iraque - AÚN EN USO ' \
+            '\n 101- dunam (dönüm, دونم) da Turquia, Síria, Israel, Palestina, Jordânia, Líbano - AÚN EN USO ' \
+            '\n 102- dunam (dönüm, دونم) antigo (anterior a 1928) da Turquia, Síria, Israel, Palestina, Jordânia, Líbano - AÚN EN USO ' \
+            '\n 103- feddan (فدّان) do Egito, Sudão, Síria, Omã - AÚN EN USO \n 104- kirat (قيراط) do Egito - AÚN EN USO \n 105- manzana da Argentina - AÚN EN USO \n 106- manzana da Belize - AÚN EN USO ' \
+            '\n 107- manzana da Costa Rica - AÚN EN USO \n 108- manzana da Guatemala - AÚN EN USO \n 109- manzana da Honduras - AÚN EN USO \n 110- manzana da Nicarágua - AÚN EN USO \n 111- cuadra da Argentina - AÚN EN USO ' \
+            '\n 112- cuadra do Chile - AÚN EN USO \n 113- cuadra do Equador - AÚN EN USO \n 114- cuadra do Paraguai - AÚN EN USO \n 115- cuadra do Peru - AÚN EN USO \n 116- cuadra do Uruguai - AÚN EN USO ' \
+            '\n 117- vara quadrada do Panamá e da Colômbia - AÚN EN USO \n 118- vara quadrada do Chile, Costa Rica, República Dominicana, Equador, El Salvador, Guatemala, Honduras, México, Nicarágua, Peru, São Tomé e Príncipe, Venezuela - AÚN EN USO ' \
+            '\n 119- vara quadrada de Cuba - AÚN EN USO \n 120- vara quadrada da Argentina, Paraguai, Uruguai - AÚN EN USO \n 121- vara quadrada do Brasil - AÚN EN USO')
+            print ('\n 122- polegada circular - CALIBRE DE LOS CABLES \n 123- kcmil, MCM - CALIBRE DE LOS CABLES \n 124- cmil - CALIBRE DE LOS CABLES')
+            print ('\n 125- L² - NATURALES')
 
             opcao = input('\n¿A qué unidad quieres convertir los m²? ').strip()
 
@@ -680,51 +680,51 @@ while (repetir=="Si"):
             print('\n 1- hl - MEDIDAS MÉTRICAS \n 2- decalitro - MEDIDAS MÉTRICAS \n 3- l - MEDIDAS MÉTRICAS \n 4- dl - MEDIDAS MÉTRICAS ' \
             '\n 5- cl - MEDIDAS MÉTRICAS \n 6- ml - MEDIDAS MÉTRICAS \n 7- µl - MEDIDAS MÉTRICAS \n 8- km³ - MEDIDAS MÉTRICAS ' \
             '\n 9- m³ - MEDIDAS MÉTRICAS \n 10- dm³ - MEDIDAS MÉTRICAS \n 11- cc - MEDIDAS MÉTRICAS \n 12- mm³ - MEDIDAS MÉTRICAS ' \
-            '\n 13- acre-pé - EUA LÍQUIDOS \n 14- barril (petróleo) - EUA LÍQUIDOS \n 15- gal - EUA LÍQUIDOS \n 16- qt - EUA LÍQUIDOS ' \
-            '\n 17- pt - EUA LÍQUIDOS \n 18- gill - EUA LÍQUIDOS \n 19- fl oz - EUA LÍQUIDOS \n 20- fl dr - EUA LÍQUIDOS \n 21- min - EUA LÍQUIDOS ' \
-            '\n 22- barril - EUA SECOS \n 23- bu - EUA SECOS \n 24- pk - EUA SECOS \n 25- gal - EUA SECOS \n 26- qt - EUA SECOS \n 27- pt - EUA SECOS ' \
+            '\n 13- acre-pé - EEUU LÍQUIDOS \n 14- barril (petróleo) - EEUU LÍQUIDOS \n 15- gal - EEUU LÍQUIDOS \n 16- qt - EEUU LÍQUIDOS ' \
+            '\n 17- pt - EEUU LÍQUIDOS \n 18- gill - EEUU LÍQUIDOS \n 19- fl oz - EEUU LÍQUIDOS \n 20- fl dr - EEUU LÍQUIDOS \n 21- min - EEUU LÍQUIDOS ' \
+            '\n 22- barril - EEUU SECOS \n 23- bu - EEUU SECOS \n 24- pk - EEUU SECOS \n 25- gal - EEUU SECOS \n 26- qt - EEUU SECOS \n 27- pt - EEUU SECOS ' \
             '\n 28- pt - APOTHECARIES \n 29- copo de vidro - APOTHECARIES \n 30- xícara de café da manhã - APOTHECARIES ' \
             '\n 31- xícara de chá - APOTHECARIES \n 32- taça de vinho - APOTHECARIES \n 33- ƒ℥ - APOTHECARIES \n 34- colher de sopa - APOTHECARIES ' \
             '\n 35- colher de sobremesa - APOTHECARIES \n 36- ƒʒ - APOTHECARIES \n 37- colher de chá - APOTHECARIES \n 38- minim - APOTHECARIES ' \
             '\n 39- perch - INGLATERRA \n 40- barril - INGLATERRA \n 41- bu - INGLATERRA \n 42- pk - INGLATERRA \n 43- gal - INGLATERRA ' \
             '\n 44- qt - INGLATERRA \n 45- pt - INGLATERRA \n 46- oz - INGLATERRA \n 47- fl dr - INGLATERRA \n 48- escrópulo líquido - INGLATERRA \n 49- min - INGLATERRA')
-            print('\n 50- mi³ - EUA/INGLATERRA \n 51- mcf - EUA/INGLATERRA \n 52- yd³ - EUA/INGLATERRA \n 53- ccf - EUA/INGLATERRA ' \
-            '\n 54- ft³ - EUA/INGLATERRA \n 55- in³ - EUA/INGLATERRA')
-            print('\n 56- tun - INGLATERRA|VINHO \n 57- butt - INGLATERRA|VINHO \n 58- puncheon - INGLATERRA|VINHO \n 59- hogsheads - INGLATERRA|VINHO ' \
-            '\n 60- tierce - INGLATERRA|VINHO \n 61- barril - INGLATERRA|VINHO \n 62- rundlet - INGLATERRA|VINHO')
-            print('\n 63- hogsheads - INGLATERRA|CERVEJA \n 64- barril - INGLATERRA|CERVEJA \n 65- kilderkin - INGLATERRA|CERVEJA \n 66- firkin - INGLATERRA|CERVEJA \n 67- pin - INGLATERRA|CERVEJA')
-            print('\n 68- Barril de cerveja norte-americano - EUA|CERVEJA \n 69- Meio-barril de cerveja norte-americano - EUA|CERVEJA \n 70- Barrilete de cerveja norte-americano (típico) - EUA|CERVEJA \n 71- Quarto de barril de cerveja norte-americano - EUA|CERVEJA')
-            print('\n 72- xícara - EUA~CULINÁRIA \n 73- colher de sopa - EUA~CULINÁRIA \n 74- colher de chá - EUA~CULINÁRIA')
-            print('\n 75- colher de sopa - AUSTRÁLIA~CULINÁRIA \n 76- colher de sobremesa - AUSTRÁLIA~CULINÁRIA \n 77- colher de chá - AUSTRÁLIA~CULINÁRIA')
-            print('\n 78- xícara - CULINÁRIA \n 79- colher de sopa - CULINÁRIA \n 80- colher de chá - CULINÁRIA')
-            print('\n 81- L³ - UNIDADES NATURAIS')
-            print('\n 82- pc³ - ASTRONOMIA \n 83-  ano-luz cúbico - ASTRONOMIA \n 84- minuto-luz cúbico - ASTRONOMIA \n 85- segundo-luz cúbico - ASTRONOMIA')
+            print('\n 50- mi³ - EEUU/INGLATERRA \n 51- mcf - EEUU/INGLATERRA \n 52- yd³ - EEUU/INGLATERRA \n 53- ccf - EEUU/INGLATERRA ' \
+            '\n 54- ft³ - EEUU/INGLATERRA \n 55- in³ - EEUU/INGLATERRA')
+            print('\n 56- tun - INGLATERRA|VINO \n 57- butt - INGLATERRA|VINO \n 58- puncheon - INGLATERRA|VINO \n 59- hogsheads - INGLATERRA|VINO ' \
+            '\n 60- tierce - INGLATERRA|VINO \n 61- barril - INGLATERRA|VINO \n 62- rundlet - INGLATERRA|VINO')
+            print('\n 63- hogsheads - INGLATERRA|CERVEZA \n 64- barril - INGLATERRA|CERVEZA \n 65- kilderkin - INGLATERRA|CERVEZA \n 66- firkin - INGLATERRA|CERVEZA \n 67- pin - INGLATERRA|CERVEZA')
+            print('\n 68- Barril de cerveja norte-americano - EEUU|CERVEZA \n 69- Meio-barril de cerveja norte-americano - EEUU|CERVEZA \n 70- Barrilete de cerveja norte-americano (típico) - EEUU|CERVEZA \n 71- Quarto de barril de cerveja norte-americano - EEUU|CERVEZA')
+            print('\n 72- xícara - EEUU~GASTRONOMÍA \n 73- colher de sopa - EEUU~GASTRONOMÍA \n 74- colher de chá - EEUU~GASTRONOMÍA')
+            print('\n 75- colher de sopa - AUSTRALIA~GASTRONOMÍA \n 76- colher de sobremesa - AUSTRALIA~GASTRONOMÍA \n 77- colher de chá - AUSTRALIA~GASTRONOMÍA')
+            print('\n 78- xícara - GASTRONOMÍA \n 79- colher de sopa - GASTRONOMÍA \n 80- colher de chá - GASTRONOMÍA')
+            print('\n 81- L³ - UNIDADES NATURALES')
+            print('\n 82- pc³ - ASTRONOMÍA \n 83-  ano-luz cúbico - ASTRONOMÍA \n 84- minuto-luz cúbico - ASTRONOMÍA \n 85- segundo-luz cúbico - ASTRONOMÍA')
             print('\n 86- arqueação - NAVAL \n 87- tonelada de registro - NAVAL \n 88- Sistema de Medição Universal do Canal do Panamá - NAVAL')
-            print('\n 89- milhão de board-feet (mmfbm, mmbdft, mmbf) - MADEIRA \n 90- corda - MADEIRA ' \
-            '\n 91- mil board-feet (mfbm, mbdft, mbf) - MADEIRA \n 92- HT - MADEIRA \n 93- tonelada cúbica de madeira - MADEIRA ' \
-            '\n 94- estere - MADEIRA \n 95- hoppus pé, hoppus ft³ (h ft) - MADEIRA \n 96- board-foot (fbmm, bdft, bf) - MADEIRA')
-            print ('\n 97- sai - JAPÃO \n 98- shaku - JAPÃO \n 99- go - JAPÃO \n 100- sho - JAPÃO \n 101- to - JAPÃO \n 102- koku - JAPÃO')
+            print('\n 89- milhão de board-feet (mmfbm, mmbdft, mmbf) - MADERA \n 90- corda - MADERA ' \
+            '\n 91- mil board-feet (mfbm, mbdft, mbf) - MADERA \n 92- HT - MADERA \n 93- tonelada cúbica de madeira - MADERA ' \
+            '\n 94- estere - MADERA \n 95- hoppus pé, hoppus ft³ (h ft) - MADERA \n 96- board-foot (fbmm, bdft, bf) - MADERA')
+            print ('\n 97- sai - JAPÓN \n 98- shaku - JAPÓN \n 99- go - JAPÓN \n 100- sho - JAPÓN \n 101- to - JAPÓN \n 102- koku - JAPÓN')
             print ('\n 103- dan - CHINA 1915#1930 \n 104- hu - CHINA 1915#1930 \n 105- dou - CHINA 1915#1930 \n 106- sheng - CHINA 1915#1930 \n 107- ge - CHINA 1915#1930 \n 108- shao - CHINA 1915#1930')
-            print ('\n 109- dan - CHINA 1930#HOJE \n 110- dou - CHINA 1930#HOJE \n 111- sheng - CHINA 1930#HOJE \n 112- ge - CHINA 1930#HOJE \n 113- shao - CHINA 1930#HOJE \n 114- cuo - CHINA 1930#HOJE')
+            print ('\n 109- dan - CHINA 1930#HOY \n 110- dou - CHINA 1930#HOY \n 111- sheng - CHINA 1930#HOY \n 112- ge - CHINA 1930#HOY \n 113- shao - CHINA 1930#HOY \n 114- cuo - CHINA 1930#HOY')
             print ('\n 115- kwian - TAILÂNDIA \n 116- sat - TAILÂNDIA \n 117- thang - TAILÂNDIA \n 118- thanan - TAILÂNDIA \n 119- fai mue - TAILÂNDIA \n 120- kam mue - TAILÂNDIA \n 121- yip mue - TAILÂNDIA')
-            print ('\n 122- medimnos - GRÉCIA ÁTICO SECO \n 123- hekteus - GRÉCIA ÁTICO SECO \n 124- hēmiekton - GRÉCIA ÁTICO SECO \n 125- choinix - GRÉCIA ÁTICO SECO \n 126- xestēs - GRÉCIA ÁTICO SECO \n 127- kotylē ou hēmina - GRÉCIA ÁTICO SECO \n 128- oxybathon - GRÉCIA ÁTICO SECO \n 129- kyathos - GRÉCIA ÁTICO SECO \n 130- kochliarion - GRÉCIA ÁTICO SECO')
-            print ('\n 131- metrētēs - GRÉCIA ÁTICO LÍQUIDO \n 132- keramion - GRÉCIA ÁTICO LÍQUIDO \n 133- chous - GRÉCIA ÁTICO LÍQUIDO ' \
-            '\n 134- xestēs - GRÉCIA ÁTICO LÍQUIDO \n 135- kotylē, tryblion ou hēmina - GRÉCIA ÁTICO LÍQUIDO ' \
-            '\n 136- tetarton, hēmikotylē - GRÉCIA ÁTICO LÍQUIDO \n 137- oxybathon - GRÉCIA ÁTICO LÍQUIDO ' \
-            '\n 138- kyathos - GRÉCIA ÁTICO LÍQUIDO \n 139- konchē - GRÉCIA ÁTICO LÍQUIDO \n 140- mystron - GRÉCIA ÁTICO LÍQUIDO ' \
-            '\n 141- chēmē - GRÉCIA ÁTICO LÍQUIDO \n 142- kochliarion - GRÉCIA ÁTICO LÍQUIDO')
+            print ('\n 122- medimnos - GRECIA ÁTICO SECO \n 123- hekteus - GRECIA ÁTICO SECO \n 124- hēmiekton - GRECIA ÁTICO SECO \n 125- choinix - GRECIA ÁTICO SECO \n 126- xestēs - GRECIA ÁTICO SECO \n 127- kotylē ou hēmina - GRECIA ÁTICO SECO \n 128- oxybathon - GRECIA ÁTICO SECO \n 129- kyathos - GRECIA ÁTICO SECO \n 130- kochliarion - GRECIA ÁTICO SECO')
+            print ('\n 131- metrētēs - GRECIA ÁTICO LÍQUIDO \n 132- keramion - GRECIA ÁTICO LÍQUIDO \n 133- chous - GRECIA ÁTICO LÍQUIDO ' \
+            '\n 134- xestēs - GRECIA ÁTICO LÍQUIDO \n 135- kotylē, tryblion ou hēmina - GRECIA ÁTICO LÍQUIDO ' \
+            '\n 136- tetarton, hēmikotylē - GRECIA ÁTICO LÍQUIDO \n 137- oxybathon - GRECIA ÁTICO LÍQUIDO ' \
+            '\n 138- kyathos - GRECIA ÁTICO LÍQUIDO \n 139- konchē - GRECIA ÁTICO LÍQUIDO \n 140- mystron - GRECIA ÁTICO LÍQUIDO ' \
+            '\n 141- chēmē - GRECIA ÁTICO LÍQUIDO \n 142- kochliarion - GRECIA ÁTICO LÍQUIDO')
             print ('\n 143- culeus - ROMA \n 144- amphora quadrantal - ROMA \n 145- urna - ROMA \n 146- modius castrensis - ROMA \n 147- modius - ROMA \n 148- semimodius - ROMA \n 149- congius - ROMA \n 150- sextarius - ROMA \n 151- hemina - ROMA \n 152- cotyla - ROMA \n 153- triens - ROMA \n 154- quartarius - ROMA \n 155- sextans - ROMA \n 156- acetabulum - ROMA \n 157- cyathus - ROMA \n 158- ligula - ROMA')
-            print ('\n 159- cahíz - ESPANHA ANTIGA SECO \n 160- fanega - ESPANHA ANTIGA SECO \n 161- cuartilla - ESPANHA ANTIGA SECO \n 162- celemín - ESPANHA ANTIGA SECO \n 163- medio - ESPANHA ANTIGA SECO \n 164- cuartillo - ESPANHA ANTIGA SECO \n 165- ochavo - ESPANHA ANTIGA SECO')
-            print ('\n 166- moyo - ESPAÑA ANTIGA LÍQUIDO \n 167- cántara - ESPANHA ANTIGA LÍQUIDO \n 168- arroba - ESPANHA ANTIGA LÍQUIDO \n 169- azumbre - ESPANHA ANTIGA LÍQUIDO \n 170- botella - ESPANHA ANTIGA LÍQUIDO \n 171- cuartillo - ESPANHA ANTIGA LÍQUIDO \n 172- copa - ESPANHA ANTIGA LÍQUIDO \n 173- panilla - ESPANHA ANTIGA LÍQUIDO \n 174- cortadillo - ESPANHA ANTIGA LÍQUIDO')
-            print ('\n 175- moio - PORTUGAL ANTIGO SECO \n 176- fanga - PORTUGAL ANTIGO SECO \n 177- alqueire - PORTUGAL ANTIGO SECO \n 178- quarta - PORTUGAL ANTIGO SECO \n 179- oitava - PORTUGAL ANTIGO SECO \n 180- maquia - PORTUGAL ANTIGO SECO \n 181- selamim - PORTUGAL ANTIGO SECO \n 182- meio-selamim - PORTUGAL ANTIGO SECO \n 183- quarto de selamim - PORTUGAL ANTIGO SECO')
-            print ('\n 184- tonel - PORTUGAL ANTIGO LÍQUIDO \n 185- pipa - PORTUGAL ANTIGO LÍQUIDO \n 186- almude - PORTUGAL ANTIGO LÍQUIDO ' \
-            '\n 187- cântaro - PORTUGAL ANTIGO LÍQUIDO \n 188- pote - PORTUGAL ANTIGO LÍQUIDO \n 189- canada - PORTUGAL ANTIGO LÍQUIDO ' \
-            '\n 190- quartilho - PORTUGAL ANTIGO LÍQUIDO \n 191- meio-quartilho - PORTUGAL ANTIGO LÍQUIDO \n 192- quarto de quartilho - PORTUGAL ANTIGO LÍQUIDO')
-            print ('\n 193- minot - FRANCÊS ANTIGO \n 194- litron - FRANCÊS ANTIGO')
-            print ('\n 195- cetverik - RÚSSIA ANTIGA SECA \n 196- vedro - RÚSSIA ANTIGA SECA \n 197- garnetz - RÚSSIA ANTIGA SECA')
-            print ('\n 198- vedro - RÚSSIA ANTIGA LÍQUIDA \n 199- shtoff - RÚSSIA ANTIGA LÍQUIDA \n 200- chetvert - RÚSSIA ANTIGA LÍQUIDA \n 201- garrafa de vinho - RÚSSIA ANTIGA LÍQUIDA \n 202- garrafa de vodca - RÚSSIA ANTIGA LÍQUIDA \n 203- charka - RÚSSIA ANTIGA LÍQUIDA \n 204- shkalik - RÚSSIA ANTIGA LÍQUIDA')
-            print ('\n 205- coro - BÍBLIA SECO \n 206- letec - BÍBLIA SECO \n 207- efa - BÍBLIA SECO \n 208- seá - BÍBLIA SECO \n 209- cabe - BÍBLIA SECO \n 210- log - BÍBLIA SECO \n 211- bezah - BÍBLIA SECO \n 212- kezayit - BÍBLIA SECO')
-            print ('\n 213- bato - BÍBLIA LÍQUIDO \n 214- hin - BÍBLIA LÍQUIDO \n 215- log - BÍBLIA LÍQUIDO')
+            print ('\n 159- cahíz - ESPAÑA ANTIGUA SECO \n 160- fanega - ESPAÑA ANTIGUA SECO \n 161- cuartilla - ESPAÑA ANTIGUA SECO \n 162- celemín - ESPAÑA ANTIGUA SECO \n 163- medio - ESPAÑA ANTIGUA SECO \n 164- cuartillo - ESPAÑA ANTIGUA SECO \n 165- ochavo - ESPAÑA ANTIGUA SECO')
+            print ('\n 166- moyo - ESPAÑA ANTIGUA LÍQUIDO \n 167- cántara - ESPAÑA ANTIGUA LÍQUIDO \n 168- arroba - ESPAÑA ANTIGUA LÍQUIDO \n 169- azumbre - ESPAÑA ANTIGUA LÍQUIDO \n 170- botella - ESPAÑA ANTIGUA LÍQUIDO \n 171- cuartillo - ESPAÑA ANTIGUA LÍQUIDO \n 172- copa - ESPAÑA ANTIGUA LÍQUIDO \n 173- panilla - ESPAÑA ANTIGUA LÍQUIDO \n 174- cortadillo - ESPAÑA ANTIGUA LÍQUIDO')
+            print ('\n 175- moio - PORTUGAL ANTIGUO SECO \n 176- fanga - PORTUGAL ANTIGUO SECO \n 177- alqueire - PORTUGAL ANTIGUO SECO \n 178- quarta - PORTUGAL ANTIGUO SECO \n 179- oitava - PORTUGAL ANTIGUO SECO \n 180- maquia - PORTUGAL ANTIGUO SECO \n 181- selamim - PORTUGAL ANTIGUO SECO \n 182- meio-selamim - PORTUGAL ANTIGUO SECO \n 183- quarto de selamim - PORTUGAL ANTIGUO SECO')
+            print ('\n 184- tonel - PORTUGAL ANTIGUO LÍQUIDO \n 185- pipa - PORTUGAL ANTIGUO LÍQUIDO \n 186- almude - PORTUGAL ANTIGUO LÍQUIDO ' \
+            '\n 187- cântaro - PORTUGAL ANTIGUO LÍQUIDO \n 188- pote - PORTUGAL ANTIGUO LÍQUIDO \n 189- canada - PORTUGAL ANTIGUO LÍQUIDO ' \
+            '\n 190- quartilho - PORTUGAL ANTIGUO LÍQUIDO \n 191- meio-quartilho - PORTUGAL ANTIGUO LÍQUIDO \n 192- quarto de quartilho - PORTUGAL ANTIGUO LÍQUIDO')
+            print ('\n 193- minot - FRANCÉS ANTIGUO \n 194- litron - FRANCÉS ANTIGUO')
+            print ('\n 195- cetverik - RUSIA ANTIGUA SECA \n 196- vedro - RUSIA ANTIGUA SECA \n 197- garnetz - RUSIA ANTIGUA SECA')
+            print ('\n 198- vedro - RUSIA ANTIGUA LÍQUIDA \n 199- shtoff - RUSIA ANTIGUA LÍQUIDA \n 200- chetvert - RUSIA ANTIGUA LÍQUIDA \n 201- garrafa de vinho - RUSIA ANTIGUA LÍQUIDA \n 202- garrafa de vodca - RUSIA ANTIGUA LÍQUIDA \n 203- charka - RUSIA ANTIGUA LÍQUIDA \n 204- shkalik - RUSIA ANTIGUA LÍQUIDA')
+            print ('\n 205- coro - BIBLIA SECO \n 206- letec - BIBLIA SECO \n 207- efa - BIBLIA SECO \n 208- seá - BIBLIA SECO \n 209- cabe - BIBLIA SECO \n 210- log - BIBLIA SECO \n 211- bezah - BIBLIA SECO \n 212- kezayit - BIBLIA SECO')
+            print ('\n 213- bato - BIBLIA LÍQUIDO \n 214- hin - BIBLIA LÍQUIDO \n 215- log - BIBLIA LÍQUIDO')
 
 
             opcao = input('\n¿A qué unidad quieres convertir los l? ').strip()
